@@ -88,10 +88,12 @@ pdb.topology, pdb.positions, ghosts = grand.utils.add_ghosts(
 ff = ForceField("amber14-all.xml", "amber14/tip3p.xml", args.xml)
 system = ff.createSystem(
     pdb.topology,
-    nonbondedMethod=PME,
-    nonbondedCutoff=12.0 * angstroms,
-    switchDistance=10.0 * angstroms,
-    constraints=HBonds,
+    nonbondedMethod=nonbondedMethod,
+    nonbondedCutoff=nonbondedCutoff,
+    switchDistance=switchDistance,
+    constraints=constraints,
+    hydrogenMass=hydrogenMass,
+    rigidWater=rigidWater
 )
 
 # Langevin Integrator
