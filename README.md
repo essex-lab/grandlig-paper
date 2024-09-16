@@ -1,40 +1,26 @@
-# Supplementary Material for "Small Molecule Binding Sites, Poses, And Free Energies with Grand Canonical Nonequilibrium Candidate Monte Carlo"
+# Supplementary Material for "Accelerating Fragment Baed Drug Discovery using Grand Canonical Nonequilibrium Candidate Monte Carlo"
 
-This repository contains the data and scripts necessary to reproduce the results presented in our manuscript, _"Small Molecule Binding Sites, Poses, And Free Energies with Grand Canonical Nonequilibrium Candidate Monte Carlo"_, by W. G. Poole, M. L. Samways, D. Branduardi, M. L. Verdonk, and J. W. Essex (2022).
+This repository contains the data and scripts necessary to reproduce the results presented in our manuscript, _"Accelerating Fragment Baed Drug Discovery using Grand Canonical Nonequilibrium Candidate Monte Carlo"_, by W. G. Poole, M. L. Samways, D. Branduardi, R. D. Taylor, M. L. Verdonk, and J. W. Essex (2024).
 
-There are separate directories for the bulk concentrations simulations as well as the two test systems: beta-cyclodextrin, and T4L99A with the scripts and input files required to run the GCNCMC/MD simulations. For T4L99A, the directory is further sub-divided into ```Binding Site/```, ```Binding Modes/``` and Titrations, where the necessary scripts to reproduce the published data can be found. The required analysis can also be found in each sub-directory. More information on how to perform the simulations and analysis can be found within each directory. The _grand_ module required to run these simulations can be downloaded [here](https:github.com/essex-lab/ligand-grand/').
+There are separate directories for the bulk concentrations simulations as well as the two test systems: beta-cyclodextrin, and T4L99A with the scripts and input files required to run the GCNCMC/MD simulations. For T4L99A, the directory is further sub-divided into ```Binding Site/```, ```Binding Modes/``` and Titrations, where the necessary scripts to reproduce the published data can be found. The required analysis can also be found in each sub-directory. More information on how to perform the simulations and analysis can be found within each directory. The _grandlig_ module required to run these simulations can be downloaded [here](https://github.com/essex-lab/grand-lig').
 
-If you encounter any problems with these scripts, please contact the authors.
+If you encounter any problems with these scripts, please open an issue or contact the authors.
 
-# Running these scripts:
+# Overview
+## HelperScripts
+In this folder you will find general scripts which may be useful for running GCNCMC simulations in the future.
 
-### T4L99A Binding site:
+## Ligands
+Text files containing the name, smile string and calculated excess chemical potentials for the ligands studied in this paper. A notebook is provided to recreate the figures in the SI depicting the structure of the molecules.
 
-Note: The script is set to run for 50 moves. This is less than the paper but should be suffcient to find the binding site and run in appox. 1 hour on a gtx1080.
+## Mu_Ex_Calculation
+Example scripts and input files to calculate the excess chemical potential for some of the ligands studied.
 
-```
-cd T4L99A/BindingSite
-mkdir repeat_1
-cd repeat_1
-python ../Benzene_Binding_site.py -p ../T4L99A_equiled.pdb -l ../Benzene.pdb -x ../Benzene.xml -r L02 -c 0.5
-```
+## HostGuest
+Scripts and input files to reproduce results in the paper regarding the host guest beta-cyclodextrin system.
 
-In short, after a few moves, one would expect to see a Benzene molecule bound in the small, hydrophobic binding pocket. Seen by aligning the xtal structure, 181l, to the simulated trajecotry in pymol.
+## T4L99A
+Scripts and input files to reproduce results in the paper regarding the T4L99A system.
 
-```
-pymol T4L99AWithghosts.pdb
-
-# In pymol
-load T4L99A.dcd
-fetch 181l  # Requires internet connection
-align 181l T4L99AWithghosts.pdb
-```
-
-### T4L99A Binding mode:
-```
-cd T4L99A/BindingSite
-mkdir repeat_1
-cd repeat_1
-python ../Benzene_Binding_site.py -p ../T4L99A_equiled.pdb -l ../Benzene.pdb -x ../Benzene.xml -r L02 -c 0.5
-```
-
+## MUP1
+Scripts and input files to reproduce results in the paper regarding the MUP1 system.
