@@ -30,7 +30,7 @@ system = ff.createSystem(
 
 list_of_resis = (
     []
-)  # Get a list of resids so we can choose at random one to decouple
+)  # Get a list of resids so we can choose at= random one to decouple
 resname = "L01"
 
 for residue in pdb.topology.residues():
