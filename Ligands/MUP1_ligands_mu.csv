@@ -1,0 +1,14 @@
+CC[C@H](C)c1nccs1	-1.73	0.04	S-SEC-BUTYL-THIAZOLE		01
+CC[C@@H](C)c1nccs1	-1.76	0.02	R-SEC-BUTYL-THIAZOLINE		02
+CC(C)Cc1nccs1		-1.73	0.03	ISO-BUTYL-THIAZOLE  		03
+CCCc1nccs1		-1.96	0.04	N-PROPYL-THIAZOLE  		04
+CC(C)c1nccs1		-1.99	0.03	ISO-PROPYL-THIAZOLE  		05
+CCc1nccs1		-2.20	0.05	ETHYL-THIAZOLE  		06
+Cc1nccs1		-2.51	0.03	METHYL-THIAZOLE  		07
+CCCCCO			-2.42	0.03	Pentan-1-ol                     08
+CCCCCCO			-2.54	0.08	Hexan-1-ol                      09
+CCCCCCCO		-2.24	0.02	Heptan-1-ol                     10
+CCCCCCCCO		-1.94	0.12	Octan-1-ol                      11
+C(CCCCO)CCCO		-7.76	0.12	Octan-1,8-diol                  12
+CC(C)CC1=NC=CN=C1OC	-4.72	0.09	2-isobutyl-3-methoxypyrazine    13
+CC(C)C1=NC=CN=C1OC	-5.02	0.04	2-isopropyl-3-methoxypyrazine   14
