@@ -1,0 +1,25 @@
+COMPND     PYRIMIDINE
+AUTHOR     GENERATED USING RDKIT IN THE SCRIPT PREP_SOLVENT_BOX.PY BY WILL POOLE
+CRYST1   40.000   40.000   40.000  90.00  90.00  90.00 P 1
+HETATM    1  C1  L01     1      -1.154   0.054   0.112  1.00  0.00           C  
+HETATM    2  C2  L01     1      -0.368   1.185   0.031  1.00  0.00           C  
+HETATM    3  N1  L01     1       0.964   1.092  -0.098  1.00  0.00           N  
+HETATM    4  C3  L01     1       1.625  -0.075  -0.158  1.00  0.00           C  
+HETATM    5  N2  L01     1       0.869  -1.182  -0.080  1.00  0.00           N  
+HETATM    6  C4  L01     1      -0.469  -1.144   0.050  1.00  0.00           C  
+HETATM    7  H1  L01     1      -2.233   0.100   0.217  1.00  0.00           H  
+HETATM    8  H2  L01     1      -0.885   2.142   0.077  1.00  0.00           H  
+HETATM    9  H3  L01     1       2.713  -0.122  -0.263  1.00  0.00           H  
+HETATM   10  H4  L01     1      -1.061  -2.050   0.112  1.00  0.00           H  
+CONECT    1    2    6    7
+CONECT    2    1    3    8
+CONECT    3    2    4
+CONECT    4    3    5    9
+CONECT    5    4    6
+CONECT    6    1    5   10
+CONECT    7    1
+CONECT    8    2
+CONECT    9    4
+CONECT   10    6
+MASTER        0    0    0    0    0    0    0    0   10    0   10    0
+END
