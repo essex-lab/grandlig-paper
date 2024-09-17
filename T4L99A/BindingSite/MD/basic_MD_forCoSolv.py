@@ -1,6 +1,6 @@
-from simtk.openmm import *
-from simtk.openmm.app import *
-from simtk.unit import *
+from openmm import *
+from openmm.app import *
+from openmm.unit import *
 from openmmtools.integrators import BAOABIntegrator
 import argparse
 from mdtraj.reporters import DCDReporter         # <-- new import from mdtraj
