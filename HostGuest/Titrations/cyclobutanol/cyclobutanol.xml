@@ -1,0 +1,77 @@
+<ForceField>
+  <Info>
+    <DateGenerated>2022-10-31</DateGenerated>
+  </Info>
+  <AtomTypes>
+    <Type element="C" name="cy" class="cy" mass="12.01"/>
+    <Type element="O" name="oh" class="oh" mass="16.0"/>
+    <Type element="H" name="hc" class="hc" mass="1.008"/>
+    <Type element="H" name="h1" class="h1" mass="1.008"/>
+    <Type element="H" name="ho" class="ho" mass="1.008"/>
+  </AtomTypes>
+  <Residues>
+    <Residue name="L02">
+      <Atom name="C1" type="cy" charge="-0.089323"/>
+      <Atom name="C2" type="cy" charge="-0.108823"/>
+      <Atom name="C3" type="cy" charge="0.118177"/>
+      <Atom name="C4" type="cy" charge="-0.108823"/>
+      <Atom name="O1" type="oh" charge="-0.587723"/>
+      <Atom name="H1" type="hc" charge="0.050777"/>
+      <Atom name="H2" type="hc" charge="0.050777"/>
+      <Atom name="H3" type="hc" charge="0.058027"/>
+      <Atom name="H4" type="hc" charge="0.058027"/>
+      <Atom name="H5" type="h1" charge="0.042777"/>
+      <Atom name="H6" type="hc" charge="0.058027"/>
+      <Atom name="H7" type="hc" charge="0.058027"/>
+      <Atom name="H8" type="ho" charge="0.400077"/>
+      <Bond atomName1="C1" atomName2="C2"/>
+      <Bond atomName1="C1" atomName2="C4"/>
+      <Bond atomName1="C1" atomName2="H1"/>
+      <Bond atomName1="C1" atomName2="H2"/>
+      <Bond atomName1="C2" atomName2="C3"/>
+      <Bond atomName1="C2" atomName2="H3"/>
+      <Bond atomName1="C2" atomName2="H4"/>
+      <Bond atomName1="C3" atomName2="C4"/>
+      <Bond atomName1="C3" atomName2="O1"/>
+      <Bond atomName1="C3" atomName2="H5"/>
+      <Bond atomName1="C4" atomName2="H6"/>
+      <Bond atomName1="C4" atomName2="H7"/>
+      <Bond atomName1="O1" atomName2="H8"/>
+    </Residue>
+  </Residues>
+  <HarmonicBondForce>
+    <Bond class1="cy" class2="cy" length="0.15580000000000002" k="237316.47999999998"/>
+    <Bond class1="cy" class2="oh" length="0.1412" k="274554.07999999996"/>
+    <Bond class1="cy" class2="hc" length="0.1095" k="278738.07999999996"/>
+    <Bond class1="cy" class2="h1" length="0.1095" k="278738.07999999996"/>
+    <Bond class1="oh" class2="ho" length="0.0973" k="310787.5199999999"/>
+  </HarmonicBondForce>
+  <HarmonicAngleForce>
+    <Angle class1="cy" class2="cy" class3="cy" angle="1.54356985" k="583.2496000000001"/>
+    <Angle class1="cy" class2="cy" class3="oh" angle="2.00014818" k="550.6144"/>
+    <Angle class1="cy" class2="cy" class3="hc" angle="2.00294071" k="374.8864"/>
+    <Angle class1="cy" class2="cy" class3="h1" angle="1.97518996" k="377.39680000000004"/>
+    <Angle class1="cy" class2="oh" class3="ho" angle="1.88146574" k="398.3168"/>
+    <Angle class1="oh" class2="cy" class3="h1" angle="1.90432956" k="431.78880000000004"/>
+    <Angle class1="hc" class2="cy" class3="hc" angle="1.9018861" k="328.02560000000005"/>
+  </HarmonicAngleForce>
+  <PeriodicTorsionForce>
+    <Proper class1="cy" class2="cy" class3="cy" class4="cy" periodicity1="3" phase1="0.0" k1="0.6508444463040001"/>
+    <Proper class1="cy" class2="cy" class3="cy" class4="oh" periodicity1="3" phase1="0.0" k1="0.6508444463040001"/>
+    <Proper class1="cy" class2="cy" class3="cy" class4="h1" periodicity1="3" phase1="0.0" k1="0.6508444463040001"/>
+    <Proper class1="cy" class2="cy" class3="cy" class4="hc" periodicity1="3" phase1="0.0" k1="0.6508444463040001"/>
+    <Proper class1="cy" class2="cy" class3="oh" class4="ho" periodicity1="1" phase1="0.0" k1="1.046" periodicity2="3" phase2="0.0" k2="0.66944"/>
+    <Proper class1="oh" class2="cy" class3="cy" class4="hc" periodicity1="3" phase1="0.0" k1="0.6508444463040001"/>
+    <Proper class1="hc" class2="cy" class3="cy" class4="hc" periodicity1="3" phase1="0.0" k1="0.6508444463040001"/>
+    <Proper class1="hc" class2="cy" class3="cy" class4="h1" periodicity1="3" phase1="0.0" k1="0.6508444463040001"/>
+    <Proper class1="h1" class2="cy" class3="oh" class4="ho" periodicity1="3" phase1="0.0" k1="0.697333334728"/>
+  </PeriodicTorsionForce>
+  <NonbondedForce coulomb14scale="0.8333333333333334" lj14scale="0.5">
+    <UseAttributeFromResidue name="charge"/>
+    <Atom class="cy" sigma="0.33996695079448314" epsilon="0.35982400053705343"/>
+    <Atom class="oh" sigma="0.3066473387458142" epsilon="0.8803136010405576"/>
+    <Atom class="hc" sigma="0.2649532787260222" epsilon="0.06568880010977264"/>
+    <Atom class="h1" sigma="0.24713530426421657" epsilon="0.0656888004119626"/>
+    <Atom class="ho" sigma="1.0" epsilon="0.0"/>
+  </NonbondedForce>
+</ForceField>
