@@ -1,0 +1,32 @@
+COMPND     ANILINE
+AUTHOR     GENERATED USING RDKIT IN THE SCRIPT PREP_SOLVENT_BOX.PY BY WILL POOLE
+HETATM    1  N1  L01     1      -1.775  -0.853  -1.252  1.00  0.00           N  
+HETATM    2  C1  L01     1      -0.699  -0.349  -0.480  1.00  0.00           C  
+HETATM    3  C2  L01     1      -0.173  -1.017   0.616  1.00  0.00           C  
+HETATM    4  C3  L01     1       0.880  -0.490   1.345  1.00  0.00           C  
+HETATM    5  C4  L01     1       1.456   0.720   1.020  1.00  0.00           C  
+HETATM    6  C5  L01     1       0.935   1.386  -0.068  1.00  0.00           C  
+HETATM    7  C6  L01     1      -0.113   0.861  -0.793  1.00  0.00           C  
+HETATM    8  H1  L01     1      -1.645  -1.752  -1.755  1.00  0.00           H  
+HETATM    9  H2  L01     1      -2.693  -0.377  -1.347  1.00  0.00           H  
+HETATM   10  H3  L01     1      -0.611  -1.975   0.892  1.00  0.00           H  
+HETATM   11  H4  L01     1       1.297  -1.020   2.214  1.00  0.00           H  
+HETATM   12  H5  L01     1       2.287   1.130   1.600  1.00  0.00           H  
+HETATM   13  H6  L01     1       1.377   2.335  -0.333  1.00  0.00           H  
+HETATM   14  H7  L01     1      -0.520   1.402  -1.659  1.00  0.00           H  
+CONECT    1    2    8    9
+CONECT    2    1    3    7
+CONECT    3    2    4   10
+CONECT    4    3    5   11
+CONECT    5    4    6   12
+CONECT    6    5    7   13
+CONECT    7    2    6   14
+CONECT    8    1
+CONECT    9    1
+CONECT   10    3
+CONECT   11    4
+CONECT   12    5
+CONECT   13    6
+CONECT   14    7
+MASTER        0    0    0    0    0    0    0    0   14    0   14    0
+END
