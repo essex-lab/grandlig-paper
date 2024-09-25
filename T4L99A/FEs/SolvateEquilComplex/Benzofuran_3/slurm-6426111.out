@@ -1,0 +1,92 @@
+Running SLURM prolog script on pink56.cluster.local
+===============================================================================
+Job started on Sat Aug 10 01:08:19 BST 2024
+Job ID          : 6426111
+Job name        : Equil
+WorkDir         : /mainfs/scratch/wp1g16/Grand/T4L99A/FreeEnergies/SolvateEquilComplex/Benzofuran_3
+Command         : /mainfs/scratch/wp1g16/Grand/T4L99A/FreeEnergies/SolvateEquilComplex/Benzofuran_3/run_equil_iridis.sh
+Partition       : gtx1080
+Num hosts       : 1
+Num cores       : 6
+Num of tasks    : 1
+Hosts allocated : pink56
+Job Output Follows ...
+===============================================================================
+=================================== SLURM JOB ===================================
+
+The job will be started on the following node(s):
+pink56
+
+Slurm User:         wp1g16
+Run Directory:      /scratch/wp1g16/Grand/T4L99A/FreeEnergies/SolvateEquilComplex/Benzofuran_3
+Job ID:             _
+Job Name:           Equil
+Partition:          gtx1080
+Number of nodes:    1
+Number of tasks:    1
+Submitted From:     cyan51.cluster.local:/mainfs/scratch/wp1g16/Grand/T4L99A/FreeEnergies/SolvateEquilComplex/Benzofuran_3
+=================================== SLURM JOB ===================================
+
+--- SLURM job-script output ---
+Free energy home directory set to /mainfs/scratch/wp1g16/Grand/T4L99A/FreeEnergies/SolvateEquilComplex/Benzofuran_3
+1
+0.514 [98.575, 128.146] [111.786, 116.235, -158.335]
+Running on CUDA platform.
+Minimizing energy
+Adding Boresch restraints..
+raA0 = 0.514 nm between atoms <Atom 2647 (C5) of chain 1 residue 166 (L02)> and <Atom 1564 (N) of chain 0 residue 99 (ALA)>
+theta_A0 = 98.575 deg between [<Atom 2652 (H01) of chain 1 residue 166 (L02)>, <Atom 2647 (C5) of chain 1 residue 166 (L02)>, <Atom 1564 (N) of chain 0 residue 99 (ALA)>]
+theta_B0 = 128.146 deg between [<Atom 2647 (C5) of chain 1 residue 166 (L02)>, <Atom 1564 (N) of chain 0 residue 99 (ALA)>, <Atom 1556 (C) of chain 0 residue 98 (ALA)>]
+phi_A0 = 1.9510337576343812 rad between [<Atom 2644 (C2) of chain 1 residue 166 (L02)>, <Atom 2652 (H01) of chain 1 residue 166 (L02)>, <Atom 2647 (C5) of chain 1 residue 166 (L02)>, <Atom 1564 (N) of chain 0 residue 99 (ALA)>]
+phi_B0 = 2.028683456055609 rad between [<Atom 2652 (H01) of chain 1 residue 166 (L02)>, <Atom 2647 (C5) of chain 1 residue 166 (L02)>, <Atom 1564 (N) of chain 0 residue 99 (ALA)>, <Atom 1556 (C) of chain 0 residue 98 (ALA)>]
+phi_C0 = -2.7634670711452216 rad between [<Atom 2647 (C5) of chain 1 residue 166 (L02)>, <Atom 1564 (N) of chain 0 residue 99 (ALA)>, <Atom 1556 (C) of chain 0 residue 98 (ALA)>, <Atom 1555 (CA) of chain 0 residue 98 (ALA)>]
+K_r = 10 kcal/(A**2 mol)
+K_thetaA = 10 kcal/(mol rad**2)
+K_thetaB = 10 kcal/(mol rad**2)
+K_phiA = 10 kcal/(mol rad**2)
+K_phiB = 10 kcal/(mol rad**2)
+K_phiC = 10 kcal/(mol rad**2)
+r_aA0 = 0.514 nm
+theta_A0 = 1.7204583101534103 rad
+theta_B0 = 2.236569623260653 rad
+phi_A0 = 1.9510337576343812 rad
+phi_B0 = 2.028683456055609 rad
+phi_C0 = -2.7634670711452216 rad
+Minimizing energy
+Running NVT
+Heating...
+Traceback (most recent call last):
+  File "/home/wp1g16/gcmc_scripts/FreeEnergy_calculations/solvate_equilibrate.py", line 113, in <module>
+    simulation.step(1)
+  File "/scratch/wp1g16/miniconda3/envs/OMM8.0/lib/python3.9/site-packages/openmm/app/simulation.py", line 141, in step
+    self._simulate(endStep=self.currentStep+steps)
+  File "/scratch/wp1g16/miniconda3/envs/OMM8.0/lib/python3.9/site-packages/openmm/app/simulation.py", line 243, in _simulate
+    self._generate_reports(unwrapped, False)
+  File "/scratch/wp1g16/miniconda3/envs/OMM8.0/lib/python3.9/site-packages/openmm/app/simulation.py", line 263, in _generate_reports
+    reporter.report(self, state)
+  File "/scratch/wp1g16/miniconda3/envs/OMM8.0/lib/python3.9/site-packages/openmm/app/statedatareporter.py", line 206, in report
+    self._checkForErrors(simulation, state)
+  File "/scratch/wp1g16/miniconda3/envs/OMM8.0/lib/python3.9/site-packages/openmm/app/statedatareporter.py", line 365, in _checkForErrors
+    raise ValueError('Energy is NaN.  For more information, see https://github.com/openmm/openmm/wiki/Frequently-Asked-Questions#nan')
+ValueError: Energy is NaN.  For more information, see https://github.com/openmm/openmm/wiki/Frequently-Asked-Questions#nan
+Job Done
+==============================================================================
+Running epilogue script on pink56.
+
+Submit time  : 2024-08-09T15:48:46
+Start time   : 2024-08-10T01:08:18
+End time     : 2024-08-10T01:10:09
+Elapsed time : 00:01:51 (Timelimit=06:00:00)
+
+Job ID: 6426111
+Cluster: i5
+User/Group: wp1g16/eb
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 6
+CPU Utilized: 00:00:41
+CPU Efficiency: 6.16% of 00:11:06 core-walltime
+Job Wall-clock time: 00:01:51
+Memory Utilized: 777.64 MB
+Memory Efficiency: 0.00% of 16.00 B
+

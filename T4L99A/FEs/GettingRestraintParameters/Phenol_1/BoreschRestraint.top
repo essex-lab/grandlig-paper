@@ -1,0 +1,15 @@
+
+; restraints
+[ intermolecular_interactions ]
+[ bonds ]
+;    ai   aj    type  bA         kA       bB    kB
+  2647  1569    6     0.384      0.0    0.384   4184.00
+[ angles ]
+;   ai    aj    ak    type    thA      fcA      thB       fcB
+  2648  2647  1569       1   80.699    0.0   80.699     41.84
+  2647  1569  1566       1   90.877    0.0   90.877     41.84
+[ dihedrals ]
+;   ai    aj    ak    al  type    phiA      fcA    phiB      fcB
+  2649  2648  2647  1569     2    65.072    0.0    65.072    41.84
+  2648  2647  1569  1566     2    171.083    0.0    171.083    41.84
+  2647  1569  1566  1565     2    -122.660    0.0    -122.660    41.84
