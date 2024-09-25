@@ -1,0 +1,11 @@
+-3.8	 0.2	 Benzene
+-3.8	 0.2	 Benzofuran
+-3.6	 0.2	 Indene
+-1.8	 0.2	 Indole
+-4.4	 0.1	 Toluene
+-5.1	 0.3	 Ethylbenzene
+-3.8	 0.1	 m-xylene
+-3.0	 0.2	 o-xylene
+-1.2	 0.1	 Phenol
+-5.6	 0.2	 Propylbenzene
+-4.0	 0.2	 Thianaphthene
