@@ -1,0 +1,15 @@
+Name;Smiles
+S-SEC-BUTYL-THIAZOLE; CC[C@H](C)c1nccs1	
+R-SEC-BUTYL-THIAZOLE; CC[C@@H](C)c1nccs1	
+ISO-BUTYL-THIAZOLE; CC(C)Cc1nccs1		
+N-PROPYL-THIAZOLE; CCCc1nccs1			
+ISO-PROPYL-THIAZOLE; CC(C)c1nccs1		
+ETHYL-THIAZOLE; CCc1nccs1			
+METHYL-THIAZOLE; Cc1nccs1			
+Pentan-1-ol; CCCCCO				
+Hexan-1-ol; CCCCCCO				
+Heptan-1-ol; CCCCCCCO			
+Octan-1-ol		; CCCCCCCO			
+Octan-1,8-diol; C(CCCCO)CCCO		
+2-isobutyl-3-methoxypyrazine; CC(C)CC1=NC=CN=C1OC	
+2-isopropyl-3-methoxypyrazine; CC(C)C1=NC=CN=C1OC	

@@ -1,0 +1,12 @@
+Name;Smiles
+Benzene;C1=CC=CC=C1
+Benzofuran;C1=CC=C2C(=C1)C=CO2
+Indene;C1C=CC2=CC=CC=C21
+Indole;C1=CC=C2C(=C1)C=CN2
+Toluene;CC1=CC=CC=C1
+Ethylbenzene;CCC1=CC=CC=C1
+m-xylene;CC1=CC(=CC=C1)C
+o-xylene;CC1=CC=CC=C1C
+Phenol;C1=CC=C(C=C1)O
+Propylbenzene;CCCC1=CC=CC=C1
+Thianaphthene;c1ccc2sccc2c1
