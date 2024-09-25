@@ -16,3 +16,8 @@ python cont_run.py -n 2
 ## Pyrimidine
 
 Same as above.
+
+## Analysis
+To write out the concentration at each frame parse the gcncmc log files to `write_concs.py`
+
+To plot `plot_concs_new.py`
