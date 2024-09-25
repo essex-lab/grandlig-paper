@@ -4,7 +4,7 @@ from simtk.openmm.app import *
 from simtk.openmm import *
 from simtk.unit import *
 from openmmtools.integrators import BAOABIntegrator
-import grand
+import grandlig as grand
 from sys import stdout
 import glob
 
