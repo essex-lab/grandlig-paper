@@ -1,0 +1,36 @@
+COMPND     INDOLE
+AUTHOR     GENERATED USING RDKIT IN THE SCRIPT PREP_SOLVENT_BOX.PY BY WILL POOLE
+HETATM    1  C1  L02     1      -2.097  -0.679  -0.020  1.00  0.00           C  
+HETATM    2  C2  L02     1      -2.080   0.695   0.110  1.00  0.00           C  
+HETATM    3  C3  L02     1      -0.870   1.353   0.147  1.00  0.00           C  
+HETATM    4  C4  L02     1       0.347   0.692   0.058  1.00  0.00           C  
+HETATM    5  C5  L02     1       0.296  -0.689  -0.072  1.00  0.00           C  
+HETATM    6  C6  L02     1      -0.895  -1.388  -0.113  1.00  0.00           C  
+HETATM    7  C7  L02     1       1.625  -1.077  -0.137  1.00  0.00           C  
+HETATM    8  C8  L02     1       2.453   0.022  -0.050  1.00  0.00           C  
+HETATM    9  N1  L02     1       1.635   1.085   0.069  1.00  0.00           N  
+HETATM   10  H1  L02     1      -3.045  -1.197  -0.049  1.00  0.00           H  
+HETATM   11  H2  L02     1      -3.031   1.225   0.181  1.00  0.00           H  
+HETATM   12  H3  L02     1      -0.866   2.435   0.250  1.00  0.00           H  
+HETATM   13  H4  L02     1      -0.902  -2.473  -0.216  1.00  0.00           H  
+HETATM   14  H5  L02     1       1.960  -2.093  -0.241  1.00  0.00           H  
+HETATM   15  H6  L02     1       3.550   0.013  -0.074  1.00  0.00           H  
+HETATM   16  H7  L02     1       1.919   2.077   0.157  1.00  0.00           H  
+CONECT    1    2    6   10
+CONECT    2    1    3   11
+CONECT    3    2    4   12
+CONECT    4    3    5    9
+CONECT    5    4    6    7
+CONECT    6    1    5   13
+CONECT    7    5    8   14
+CONECT    8    7    9   15
+CONECT    9    4    8   16
+CONECT   10    1
+CONECT   11    2
+CONECT   12    3
+CONECT   13    6
+CONECT   14    7
+CONECT   15    8
+CONECT   16    9
+MASTER        0    0    0    0    0    0    0    0   16    0   16    0
+END

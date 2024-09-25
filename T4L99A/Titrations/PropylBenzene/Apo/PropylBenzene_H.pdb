@@ -1,0 +1,43 @@
+HETATM    1  CAA LIG A 200     -38.811  19.281  15.792  1.00  0.00           C  
+HETATM    2  CAB LIG A 200     -42.890  19.515  10.733  1.00  0.00           C  
+HETATM    3  CAC LIG A 200     -41.512  19.453  10.563  1.00  0.00           C  
+HETATM    4  CAD LIG A 200     -43.414  19.863  11.972  1.00  0.00           C  
+HETATM    5  CAE LIG A 200     -40.693  19.727  11.649  1.00  0.00           C  
+HETATM    6  CAF LIG A 200     -42.594  20.150  13.060  1.00  0.00           C  
+HETATM    7  CAG LIG A 200     -39.823  19.037  14.680  1.00  0.00           C  
+HETATM    8  CAH LIG A 200     -40.238  20.354  14.015  1.00  0.00           C  
+HETATM    9  CAI LIG A 200     -41.210  20.075  12.883  1.00  0.00           C  
+HETATM   10  H01 LIG A 200     -37.946  19.805  15.386  1.00  0.00           H  
+HETATM   11  H02 LIG A 200     -39.269  19.887  16.574  1.00  0.00           H  
+HETATM   12  H03 LIG A 200     -38.493  18.326  16.211  1.00  0.00           H  
+HETATM   13  H04 LIG A 200     -43.556  19.292   9.899  1.00  0.00           H  
+HETATM   14  H05 LIG A 200     -41.083  19.194   9.595  1.00  0.00           H  
+HETATM   15  H06 LIG A 200     -44.496  19.913  12.095  1.00  0.00           H  
+HETATM   16  H07 LIG A 200     -39.612  19.666  11.526  1.00  0.00           H  
+HETATM   17  H08 LIG A 200     -43.020  20.426  14.024  1.00  0.00           H  
+HETATM   18  H09 LIG A 200     -40.709  18.573  15.113  1.00  0.00           H  
+HETATM   19  H10 LIG A 200     -39.378  18.383  13.930  1.00  0.00           H  
+HETATM   20  H11 LIG A 200     -39.353  20.849  13.615  1.00  0.00           H  
+HETATM   21  H12 LIG A 200     -40.716  20.998  14.753  1.00  0.00           H  
+CONECT    1    7   10   11   12
+CONECT    2    4   13    3
+CONECT    3    2   14    5
+CONECT    4    2    6   15
+CONECT    5    3   16    9
+CONECT    6    4   17    9
+CONECT    7    1    8   18   19
+CONECT    8    7    9   20   21
+CONECT    9    8    5    6
+CONECT   10    1
+CONECT   11    1
+CONECT   12    1
+CONECT   13    2
+CONECT   14    3
+CONECT   15    4
+CONECT   16    5
+CONECT   17    6
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   21    8
+END
