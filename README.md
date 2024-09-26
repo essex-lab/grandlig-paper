@@ -10,9 +10,6 @@ If you encounter any problems with these scripts, please open an issue or contac
 ## Concentration
 Input files to run the concentration simulations.
 
-## HelperScripts
-In this folder you will find general scripts which may be useful for running GCNCMC simulations in the future.
-
 ## Ligands
 Text files containing the name, smile string and calculated excess chemical potentials for the ligands studied in this paper. A notebook is provided to recreate the figures in the SI depicting the structure of the molecules.
 
@@ -27,3 +24,14 @@ Scripts and input files to reproduce results in the paper regarding the T4L99A s
 
 ## MUP1
 Scripts and input files to reproduce results in the paper regarding the MUP1 system.
+
+## Outputs
+Collated output data which matches the publication.
+
+# Generalisation
+Clearly this repo has many many input files. This is so that the results in the paper are reproducible. To make things simpler and clearer this is a more general overview to the GCNCMC protocols.
+
+For any given ligand and system:
+1. An excess chemical potential needs to be calculated for the ligand. This is basic hydration/solvation free energy calculation. Note that as mentioned in the paper, for suffciently dilute concentrations and hydration free energy will suffice. For higher concentrations, depending on application, it may be more precise to perform a solvation free energy calculation in a solution of that concentration. Examples are found in `T4L99A/FEs/Solv`, [the main repo](https://github.com/essex-lab/grand-lig/examples), and in `Mu_Ex_Calculations`. 
+
+2. Now the user must make choices on what kind of simulation they want to run. To find occluded sites you may choose to define a sphere which covers the whole protein, and run at a certain concentration. I.e. `T4L99A/BindingSite`. Or to calculate free energies via titration you may want to set the sphere to cover the binding site and run simulations at a range of cocnentraions/B values. I.e. `T4L99A/Titrations`
