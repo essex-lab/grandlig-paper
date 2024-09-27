@@ -10,9 +10,9 @@ import glob
 
 # Load in PDB
 pdb = PDBFile("../../../../bCD-Equiled.pdb")
-lig_pdb = glob.glob("../../.pdb")
+lig_pdb = glob.glob("../../*.pdb")
 print(lig_pdb)
-lig_xml = glob.glob("../../.xml")
+lig_xml = glob.glob("../../*.xml")
 # Add ghost waters,
 pdb.topology, pdb.positions, ghosts = grand.utils.add_ghosts(
     pdb.topology, pdb.positions, molfile=lig_pdb[0], n=10, pdb="betaCDWithghosts.pdb"
