@@ -159,7 +159,7 @@ ncmc_mover.reset()  # Reset stats
 print("\nProduction....")
 
 print("Running NCMC...")
-for i in range(4000):
+for i in range(10000):
     simulation.step(500)
     ncmc_mover.move(simulation.context, 1)
     ncmc_mover.report(simulation, data=True
