@@ -36,6 +36,8 @@ The folder structure is already setup with a python file to run in each folder. 
 cd Titration/01/repeat_1
 ```
 
-You will then need to `cd` into each directory corresponding to an individual B value and run the simulation. You will need a full set of simulations at multiple B values to plot a titration curve. 
+You will then need to `cd` into each directory corresponding to an individual B value and run the simulation. You will need a full set of simulations at multiple B values to plot a titration curve. Scripts in the `Analysis_Scripts` folder can be used to collate the final occupancies of the simulation, plot titration curves and return final free energy estimates.
+
+
 
 

@@ -36,7 +36,6 @@ python grid_analysis_all_atom_basicCosolv_cuda.py -di aligned.dcd -p repeat_1/Pr
 done
 ```
 
-
 ### T4L99A Binding mode:
 ```
 cd T4L99A/BindingSite
@@ -45,7 +44,7 @@ cd repeat_1
 python ../Benzene_Binding_site.py -p ../T4L99A_equiled.pdb -l ../Benzene.pdb -x ../Benzene.xml -r L02 -c 0.5
 ```
 
-## Titration Calculations
+### Titration Calculations
 The folder structure is already setup with a python file to run in each folder. To run a titration for e.g. Benzene
 
 ```

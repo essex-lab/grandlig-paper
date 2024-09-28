@@ -120,11 +120,11 @@ for i in range(1500):
 
 
 with open("Insertion_Works.txt", "w") as fi:
-    for work in ncmc_mover.insert_works:
+    for work in ncmc_move.tracked_variables["insert_works"]:
         fi.write(f"{work}\n")
 
 with open("Deletion_Works.txt", "w") as fi:
-    for work in ncmc_mover.delete_works:
+    for work in ncmc_move.tracked_variables["delete_works"]:
         fi.write(f"{work}\n")
 
 

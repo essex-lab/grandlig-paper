@@ -17,9 +17,10 @@ cd Benzene/Mu_Ex/repeat_1
 python ../../../calcMuEx.py -p ../Benzene_solvated.pdb -l ../Benzene.sdf
 ```
 
-In these particular examples, the mu ex is calculated in one single script which loops through a certain number of lambda windows in a single simulation. 
+In these particular examples, the mu ex is calculated in one single script which loops through a certain number of lambda windows in a single simulation. The final free energy result will be printed in the log file.
 
 To make use of parallelisation, each individual lambda could be run as a seperate simulation with the results combined at the end to calculate a final free energy. An example of this is can be found in `T4L99A/FEs/Solv`.
+
 
 
 
