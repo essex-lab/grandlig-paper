@@ -22,7 +22,7 @@ sphere_rad = 8.0 * angstrom
 
 # Setup the output files
 # Move ghost waters out of the simulation cell
-trj = grand.utils.shift_ghost_waters(
+trj = grand.utils.shift_ghost_molecules(
     ghost_file="ncmc-ghost-ligs.txt",
     topology="T4L99AWithghosts.pdb",
     trajectory="T4L99A_raw.dcd",

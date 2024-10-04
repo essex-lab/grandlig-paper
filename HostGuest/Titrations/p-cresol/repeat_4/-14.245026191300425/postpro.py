@@ -9,7 +9,7 @@ from sys import stdout
 import glob
 
 # Move ghost waters out of the simulation cell
-trj = grand.utils.shift_ghost_waters(
+trj = grand.utils.shift_ghost_molecules(
     ghost_file="ncmc-ghost-ligs.txt",
     topology="betaCDWithghosts.pdb",
     trajectory="betaCD_aligned.dcd",

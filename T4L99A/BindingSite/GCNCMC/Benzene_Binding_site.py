@@ -32,9 +32,7 @@ parser.add_argument(
     type=float,
     default=0.5,
 )
-parser.add_argument(
-    "--gpuid", help="Input gpu ID to run on", type=int, default=0
-)
+parser.add_argument("--gpuid", help="Input gpu ID to run on", type=int, default=0)
 args = parser.parse_args()
 
 
@@ -93,7 +91,7 @@ system = ff.createSystem(
     switchDistance=switchDistance,
     constraints=constraints,
     hydrogenMass=hydrogenMass,
-    rigidWater=rigidWater
+    rigidWater=rigidWater,
 )
 
 # Langevin Integrator
@@ -170,23 +168,19 @@ print("Running NCMC...")
 for i in range(50):  # Number of MD - GCNCMC move cycles to perform
     simulation.step(4000)  # Stop normal MD steps to propagate the system
     ncmc_mover.move(simulation.context, 1)  # Perform a move
-    ncmc_mover.report(
-        simulation, data=True
-    )  # Report the frame to the DCD file
+    ncmc_mover.report(simulation, data=True)  # Report the frame to the DCD file
 
 
 # Setup the output files
 # Move ghost waters out of the simulation cell for better visulisation
-trj = grand.utils.shift_ghost_waters(
+trj = grand.utils.shift_ghost_molecules(
     ghost_file="ncmc-ghost-ligs.txt",
     topology="T4L99AWithghosts.pdb",
     trajectory="T4L99A_raw.dcd",
 )
 
 # Align the trajectory to the protein
-grand.utils.align_traj(
-    t=trj, output="T4L99A.dcd", reference="T4L99AWithghosts.pdb"
-)
+grand.utils.align_traj(t=trj, output="T4L99A.dcd", reference="T4L99AWithghosts.pdb")
 
 
 # Write out a trajectory of the GCMC sphere

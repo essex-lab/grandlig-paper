@@ -212,7 +212,7 @@ ncmc_mover.n_accepted = n_accepted_lig
 
 print("Minimising...")
 simulation.minimizeEnergy(
-    tolerance=0.0001 * kilojoule / mole, maxIterations=10000
+    tolerance=0.0001 * kilojoules_per_mole / nanometer, maxIterations=10000
 )  # Quick Minimisation
 
 print("Equilibration...")

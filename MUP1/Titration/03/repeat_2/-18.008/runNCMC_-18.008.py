@@ -128,7 +128,7 @@ ncmc_mover.deleteMoleculesInGCMCSphere()
 
 print("Minimising...")
 simulation.minimizeEnergy(
-    tolerance=0.0001 * kilojoule / mole, maxIterations=10000
+    tolerance=0.0001 * kilojoules_per_mole / nanometer, maxIterations=10000
 )  # Quick Minimisation
 
 print("Equilibration...")
@@ -147,7 +147,9 @@ for i in range(150):
 
 print(
     "{}/{} equilibration NCMC moves accepted. N = {}".format(
-        ncmc_mover.n_accepted, ncmc_mover.n_moves, ncmc_mover.N
+        ncmc_mover.tracked_variables["n_accepted"],
+        ncmc_mover.tracked_variables["n_moves"],
+        ncmc_mover.N,
     )
 )
 
@@ -165,7 +167,7 @@ for i in range(2000):
 
 # Setup the output files
 # Move ghost waters out of the simulation cell
-trj = grand.utils.shift_ghost_waters(
+trj = grand.utils.shift_ghost_molecules(
     ghost_file="ncmc-ghost-ligs.txt",
     topology="MUP1WithGhosts.pdb",
     trajectory="MUP1NCMCholo_raw.dcd",

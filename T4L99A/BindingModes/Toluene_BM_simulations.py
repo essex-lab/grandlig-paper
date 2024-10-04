@@ -11,9 +11,7 @@ import glob
 
 # Arguments to be input
 parser = argparse.ArgumentParser()
-parser.add_argument(
-    "--gpuid", help="Input gpu ID to run on", type=int, default=0
-)
+parser.add_argument("--gpuid", help="Input gpu ID to run on", type=int, default=0)
 args = parser.parse_args()
 
 # Set MD and GCNCMC variables
@@ -46,7 +44,9 @@ switching_time = 50 * picoseconds
 n_prop = 25
 n_pert = int((switching_time / (n_prop * dt)) - 1)
 
-adams_value = -7.340809557310219  # Explicitly set adams value to B50 as reported in paper
+adams_value = (
+    -7.340809557310219
+)  # Explicitly set adams value to B50 as reported in paper
 
 # Load in PDB
 pdb = PDBFile("../T4NoCoSolv.pdb")
@@ -71,13 +71,11 @@ system = ff.createSystem(
     switchDistance=switchDistance,
     constraints=constraints,
     hydrogenMass=hydrogenMass,
-    rigidWater=rigidWater
+    rigidWater=rigidWater,
 )
 
 # Langevin Integrator
-integrator = BAOABIntegrator(
-    temperature, friction, dt
-)
+integrator = BAOABIntegrator(temperature, friction, dt)
 
 # Sphere data
 ref_atoms = [
@@ -105,7 +103,7 @@ ncmc_mover = grand.samplers.NonequilibriumGCMCSphereSampler(
     log="T4NCMC.log",
     dcd="T4NCMCholo_raw.dcd",
     overwrite=True,
-    maxN=1  # NOTE: Setting maxN=1 is not recommended. It will instantly reject any attempted insertion move in order to save time. Only use when certain your site fits one ligand
+    maxN=1,  # NOTE: Setting maxN=1 is not recommended. It will instantly reject any attempted insertion move in order to save time. Only use when certain your site fits one ligand
 )
 
 # Get platform
@@ -140,9 +138,7 @@ ncmc_mover.initialise(simulation.context, simulation, ghosts)
 ncmc_mover.deleteMoleculesInGCMCSphere()
 
 print("Minimising...")
-simulation.minimizeEnergy(
-    maxIterations=100000
-)  # Quick Minimisation
+simulation.minimizeEnergy(maxIterations=100000)  # Quick Minimisation
 
 print("Equilibration...")
 for i in range(100):
@@ -151,7 +147,9 @@ for i in range(100):
 
 print(
     "{}/{} equilibration NCMC moves accepted. N = {}".format(
-        ncmc_mover.tracked_variables['n_accepted'], ncmc_mover.tracked_variables['n_moves'], ncmc_mover.N
+        ncmc_mover.tracked_variables["n_accepted"],
+        ncmc_mover.tracked_variables["n_moves"],
+        ncmc_mover.N,
     )
 )
 
@@ -162,12 +160,11 @@ print("Running NCMC...")
 for i in range(10000):
     simulation.step(500)
     ncmc_mover.move(simulation.context, 1)
-    ncmc_mover.report(simulation, data=True
-                      )
+    ncmc_mover.report(simulation, data=True)
 
 # Setup the output files
 # Move ghost waters out of the simulation cell
-trj = grand.utils.shift_ghost_waters(
+trj = grand.utils.shift_ghost_molecules(
     ghost_file="ncmc-ghost-ligs.txt",
     topology="T4Withghosts.pdb",
     trajectory="T4NCMCholo_raw.dcd",
@@ -175,9 +172,7 @@ trj = grand.utils.shift_ghost_waters(
 
 
 # Align the trajectory to the protein
-grand.utils.align_traj(
-    t=trj, output="T4NCMCholo.dcd", reference="T4Withghosts.pdb"
-)
+grand.utils.align_traj(t=trj, output="T4NCMCholo.dcd", reference="T4Withghosts.pdb")
 
 # Write out a trajectory of the GCMC sphere
 grand.utils.write_sphere_traj(
