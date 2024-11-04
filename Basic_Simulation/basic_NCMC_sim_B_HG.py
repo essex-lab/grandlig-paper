@@ -88,7 +88,7 @@ sphere_rad = args.rad * angstroms
 # Input Files
 protein_file = args.pdb
 lig_file = args.lig
-xml_file = args.xml
+xml_file = args.lxml
 pdb = PDBFile(protein_file)
 
 # Get platform
@@ -109,7 +109,7 @@ for residue in pdb.topology.residues():
 
 
 # Load force field and create system
-ff = ForceField("amber14-all.xml", "amber14/tip3p.xml", xml_file)
+ff = ForceField("amber14-all.xml", "amber14/tip3p.xml", args.hxml, xml_file)
 system = ff.createSystem(
     pdb.topology,
     nonbondedMethod=nonbondedMethod,
