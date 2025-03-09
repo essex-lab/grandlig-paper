@@ -5,6 +5,11 @@ from pymbar import MBAR
 import numpy as np
 import os
 from openmm.unit import *
+import sys
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.dirname(SCRIPT_DIR))
+from Plot_FE_convergance import make_fe_trace
+from matplotlib import pyplot as plt
 
 def calc_mu_ex(id, n_repeats=3):
     WORK_DIR = os.getcwd()
@@ -35,6 +40,7 @@ def calc_mu_ex(id, n_repeats=3):
                 #raise Exception(f"Cannot find file: {npy_array}")
             u_kln_ = np.load(npy_array)
             U_kln += u_kln_
+        np.save(f"{ligand}/repeat_{repeat}/Combined_Ukln.npy", U_kln)
 
         u_kln_list.append(U_kln)
         # Perform pymbar analysis
@@ -60,6 +66,10 @@ def calc_mu_ex(id, n_repeats=3):
         dg_repeats.append(dg._value * -1)
         os.chdir(WORK_DIR)
 
+    _, _, _ = make_fe_trace(
+        u_kln_list, f"{ligand} Complex Decoupling", kT_kcal, lambdas, f"{ligand}/{ligand}_complex_convergence.pdf"
+    )
+    plt.clf()
     mean_dg = np.mean(dg_repeats)
     std_error = np.std(dg_repeats) / np.sqrt(len(dg_repeats))
     print(f"{ligand}: {mean_dg:.3f} +/- {std_error:.3f}")
@@ -77,7 +87,7 @@ args = parser.parse_args()
 wd = os.getcwd()
 print(wd)
 
-df = pd.read_csv(args.df)
+df = pd.read_csv(args.df, delimiter=args.delim)
 
 mu_exs = []
 mu_ex_errs = []

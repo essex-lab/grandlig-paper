@@ -1,23 +1,23 @@
 Name;Smiles
-thianaphthene;	s1ccc2ccccc12
-p-cresol;	Cc1ccc(O)cc1
-acetaldehyde;	CC=O
-quinoline;	c1ccc2ncccc2c1
-4-fluorophenol;	Oc1ccc(F)cc1
-acetone;	CC(C)=O
-benzonitrile;	N#Cc1ccccc1
-2-propanol;	CC(C)O
-aniline;	Nc1ccccc1
-benzothiazole;	s1cnc2ccccc12
-m-cresol;	Cc1cccc(O)c1
-benzaldehyde;	O=Cc1ccccc1
-ethanol;	CCO
-2-butanol;	CCC(C)O
-1-propanol;	CCCO
-cyclobutanol;	C1CC(C1)O
-cyclopentanol; C1CCC(C1)O
-1-methylcyclohexanol;	CC1(CCCCC1)O
-cyclooctanol;	C1CCCC(CCC1)O
-cycloheptanol;	OC1CCCCCC1
-cis-4-methylcyclohexanol;	C[C@H]1CC[C@@H](O)CC1
-trans-4-methylcyclohexanol;	C[C@@H]1CC[C@@H](O)C1
+thianaphthene;s1ccc2ccccc12
+p-cresol;Cc1ccc(O)cc1
+acetaldehyde;CC=O
+quinoline;c1ccc2ncccc2c1
+4-fluorophenol;Oc1ccc(F)cc1
+acetone;CC(C)=O
+benzonitrile;N#Cc1ccccc1
+2-propanol;CC(C)O
+aniline;Nc1ccccc1
+benzothiazole;s1cnc2ccccc12
+m-cresol;Cc1cccc(O)c1
+benzaldehyde;O=Cc1ccccc1
+ethanol;CCO
+2-butanol;CCC(C)O
+1-propanol;CCCO
+cyclobutanol;C1CC(C1)O
+cyclopentanol;C1CCC(C1)O
+1-methylcyclohexanol;CC1(CCCCC1)O
+cyclooctanol;C1CCCC(CCC1)O
+cycloheptanol;OC1CCCCCC1
+cis-4-methylcyclohexanol;C[C@H]1CC[C@@H](O)CC1
+trans-4-methylcyclohexanol;C[C@@H]1CC[C@@H](O)C1

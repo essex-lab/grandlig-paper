@@ -42,19 +42,6 @@ else:
     else:
         u_ref = MDAnalysis.Universe(args.pdb)
 
-
-#protein = u_ref.select_atoms('protein')
-#protein.unwrap(compound='fragments')
-#
-#protein_center = protein.center_of_mass(wrap=True)
-#dim = u_ref.dimensions
-#box_center = np.sum(dim, axis=0) / 2
-#u_ref.atoms.translate(box_center - protein_center)
-#
-#not_protein = u_ref.select_atoms('not protein')
-#
-#not_protein.wrap(compound='residues')
-
 # Details te alignment parameters
 a = MDAnalysis.analysis.align.AlignTraj(u, u_ref, select="name CA", filename=args.dcdout)
 a.run()  # Runs the alignment

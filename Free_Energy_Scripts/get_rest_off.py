@@ -37,7 +37,7 @@ args = parser.parse_args()
 wd = os.getcwd()
 print(wd)
 
-df = pd.read_csv(args.df)
+df = pd.read_csv(args.df, delimiter=args.delim)
 
 mu_exs = []
 mu_ex_errs = []

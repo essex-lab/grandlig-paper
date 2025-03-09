@@ -1,0 +1,1533 @@
+2022-06-30 19:58:09,904 - INFO: kT = 0.5921875708469466 kcal/mol
+2022-06-30 19:58:22,531 - INFO: BaseGrandCanonicalMonteCarloSampler object initialised
+2022-06-30 19:58:22,534 - INFO: GCMC sphere is based on reference atom IDs: [1328, 1568]
+2022-06-30 19:58:22,535 - INFO: GCMC sphere radius is 8.0 A
+2022-06-30 19:58:22,535 - INFO: Simulating at an Adams (B) value of -21.311754897841496
+2022-06-30 19:58:22,535 - INFO: GCMCSphereSampler object initialised
+2022-06-30 19:58:22,535 - INFO: Each NCMC move will be executed over a total of 150.0 ps
+2022-06-30 19:58:22,535 - INFO: NonequilibriumGCMCSphereSampler object initialised
+2022-06-30 20:00:43,856 - INFO: Insertion work = -0.06610080181313151 kcal/mol
+2022-06-30 20:00:43,863 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:02:39,167 - INFO: Insertion work = -0.9082327288554094 kcal/mol
+2022-06-30 20:04:34,765 - INFO: Insertion work = -1.1543714447257711 kcal/mol
+2022-06-30 20:04:34,772 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:06:30,069 - INFO: Insertion work = 2.0647096170742922 kcal/mol
+2022-06-30 20:06:30,076 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:08:27,220 - INFO: Insertion work = 0.38599096332991667 kcal/mol
+2022-06-30 20:10:23,189 - INFO: Insertion work = 2.056689184200437 kcal/mol
+2022-06-30 20:12:18,535 - INFO: Insertion work = 0.7381022862829996 kcal/mol
+2022-06-30 20:12:18,542 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:14:15,790 - INFO: Insertion work = 1.8786595016673382 kcal/mol
+2022-06-30 20:14:15,797 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:16:12,809 - INFO: Insertion work = -0.5668291766873145 kcal/mol
+2022-06-30 20:16:12,816 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:18:08,979 - INFO: Insertion work = -0.2437673589698994 kcal/mol
+2022-06-30 20:18:08,986 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:20:05,747 - INFO: Insertion work = 1.767951676439065 kcal/mol
+2022-06-30 20:20:05,754 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:22:01,344 - INFO: Insertion work = -0.11445923980386781 kcal/mol
+2022-06-30 20:22:01,352 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:23:57,691 - INFO: Insertion work = 2.480370418093372 kcal/mol
+2022-06-30 20:23:57,698 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:25:53,344 - INFO: Insertion work = 5.817986002755497 kcal/mol
+2022-06-30 20:25:53,350 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:27:48,416 - INFO: Insertion work = -0.37150734727917545 kcal/mol
+2022-06-30 20:27:48,423 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:29:43,704 - INFO: Insertion work = 25.283160333964176 kcal/mol
+2022-06-30 20:29:43,712 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:31:39,213 - INFO: Insertion work = -2.2078461714229585 kcal/mol
+2022-06-30 20:33:35,603 - INFO: Insertion work = 2.156186491174407 kcal/mol
+2022-06-30 20:33:35,610 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:35:30,372 - INFO: Insertion work = 0.1417521520225798 kcal/mol
+2022-06-30 20:35:30,379 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:37:25,338 - INFO: Insertion work = -0.1516935866202321 kcal/mol
+2022-06-30 20:37:25,346 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:39:20,672 - INFO: Insertion work = -0.26822577891283667 kcal/mol
+2022-06-30 20:39:20,680 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:41:17,947 - INFO: Insertion work = 1.4239679330854869 kcal/mol
+2022-06-30 20:41:17,955 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:43:17,626 - INFO: Insertion work = -0.6711928301444546 kcal/mol
+2022-06-30 20:45:13,058 - INFO: Insertion work = 1.5759327658474342 kcal/mol
+2022-06-30 20:45:13,066 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:47:08,140 - INFO: Insertion work = 1.5824301048457057 kcal/mol
+2022-06-30 20:47:08,148 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:49:03,480 - INFO: Insertion work = -0.8503262146801658 kcal/mol
+2022-06-30 20:49:03,488 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:50:59,024 - INFO: Insertion work = 2.1722443108771743 kcal/mol
+2022-06-30 20:50:59,031 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:52:54,264 - INFO: Insertion work = 0.5637466295152167 kcal/mol
+2022-06-30 20:52:54,271 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 20:54:49,085 - INFO: Insertion work = -0.5940065256642256 kcal/mol
+2022-06-30 20:56:44,003 - INFO: Insertion work = -0.4516429760084662 kcal/mol
+2022-06-30 20:58:40,303 - INFO: Insertion work = -3.5827534392241898 kcal/mol
+2022-06-30 20:58:40,310 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:00:35,627 - INFO: Insertion work = 6.157515992053897 kcal/mol
+2022-06-30 21:00:35,634 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:02:30,892 - INFO: Insertion work = -2.6140367924093324 kcal/mol
+2022-06-30 21:04:26,294 - INFO: Insertion work = -4.0611038590495525 kcal/mol
+2022-06-30 21:06:21,315 - INFO: Insertion work = 2.0975145972316 kcal/mol
+2022-06-30 21:08:16,490 - INFO: Insertion work = 0.37192116601900954 kcal/mol
+2022-06-30 21:08:16,497 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:10:12,637 - INFO: Insertion work = 8.528581802120225 kcal/mol
+2022-06-30 21:10:12,643 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:12:08,076 - INFO: Insertion work = -0.7046367970306812 kcal/mol
+2022-06-30 21:14:04,088 - INFO: Insertion work = 3.106148420240078 kcal/mol
+2022-06-30 21:14:04,096 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:15:59,718 - INFO: Insertion work = 0.921042669926419 kcal/mol
+2022-06-30 21:15:59,725 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:17:54,744 - INFO: Insertion work = 0.12527600977610887 kcal/mol
+2022-06-30 21:17:54,751 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:19:50,136 - INFO: Insertion work = -2.501664510324877 kcal/mol
+2022-06-30 21:21:45,670 - INFO: Insertion work = -2.8975035699866254 kcal/mol
+2022-06-30 21:23:41,620 - INFO: Insertion work = 1.396333431267671 kcal/mol
+2022-06-30 21:23:41,627 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:25:38,086 - INFO: Insertion work = 1.7413281796439681 kcal/mol
+2022-06-30 21:25:38,094 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:27:33,730 - INFO: Insertion work = -0.24831295313925705 kcal/mol
+2022-06-30 21:27:33,737 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:29:30,255 - INFO: Insertion work = 0.43009641110838626 kcal/mol
+2022-06-30 21:29:30,262 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:31:25,938 - INFO: Insertion work = 0.2478661830203187 kcal/mol
+2022-06-30 21:31:25,946 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:33:21,418 - INFO: Insertion work = 0.14634267193305697 kcal/mol
+2022-06-30 21:33:21,425 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:35:16,639 - INFO: Insertion work = 0.33420414975924473 kcal/mol
+2022-06-30 21:35:16,646 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:37:12,646 - INFO: Insertion work = 0.7389074212708538 kcal/mol
+2022-06-30 21:37:12,654 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:39:08,416 - INFO: Insertion work = 0.6419253667120303 kcal/mol
+2022-06-30 21:39:08,423 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:41:04,571 - INFO: Insertion work = 5.228060688315959 kcal/mol
+2022-06-30 21:41:04,578 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:43:02,127 - INFO: Insertion work = 0.14079173301866263 kcal/mol
+2022-06-30 21:44:57,081 - INFO: Insertion work = 2.625049648799328 kcal/mol
+2022-06-30 21:44:57,088 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:46:53,116 - INFO: Insertion work = 0.8623169909919661 kcal/mol
+2022-06-30 21:46:53,123 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:48:48,873 - INFO: Insertion work = -3.512700230446791 kcal/mol
+2022-06-30 21:50:44,254 - INFO: Insertion work = -3.3097997803933716 kcal/mol
+2022-06-30 21:52:39,702 - INFO: Insertion work = 1.6275005725930944 kcal/mol
+2022-06-30 21:52:39,710 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:54:36,745 - INFO: Insertion work = 1.1765503296299133 kcal/mol
+2022-06-30 21:54:36,753 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:56:32,307 - INFO: Insertion work = 0.7593269858007989 kcal/mol
+2022-06-30 21:56:32,315 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 21:58:28,130 - INFO: Insertion work = 2.4337494782244287 kcal/mol
+2022-06-30 21:58:28,138 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:00:25,887 - INFO: Insertion work = -3.9188846801968538 kcal/mol
+2022-06-30 22:02:21,716 - INFO: Insertion work = -0.3271726363856727 kcal/mol
+2022-06-30 22:04:16,682 - INFO: Insertion work = -0.63929203933329 kcal/mol
+2022-06-30 22:04:16,689 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:06:11,906 - INFO: Insertion work = -0.568916927166121 kcal/mol
+2022-06-30 22:06:11,914 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:08:08,190 - INFO: Insertion work = -0.7950215317517243 kcal/mol
+2022-06-30 22:10:05,091 - INFO: Insertion work = -0.6800836652657963 kcal/mol
+2022-06-30 22:10:05,099 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:12:01,083 - INFO: Insertion work = 0.7029702922776393 kcal/mol
+2022-06-30 22:12:01,090 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:13:57,054 - INFO: Insertion work = 6.003670612671505 kcal/mol
+2022-06-30 22:13:57,062 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:15:52,775 - INFO: Insertion work = -0.6356210164934094 kcal/mol
+2022-06-30 22:15:52,782 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:17:49,250 - INFO: Insertion work = 0.6077964553105552 kcal/mol
+2022-06-30 22:17:49,256 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:19:45,696 - INFO: Insertion work = 1.6595578732869984 kcal/mol
+2022-06-30 22:19:45,704 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:21:41,152 - INFO: Insertion work = -0.9633494911329861 kcal/mol
+2022-06-30 22:23:37,343 - INFO: Insertion work = 1.3641529944930286 kcal/mol
+2022-06-30 22:23:37,350 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:25:33,149 - INFO: Insertion work = -0.1402101641405974 kcal/mol
+2022-06-30 22:25:33,156 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:27:28,465 - INFO: Insertion work = 1.8498174933316853 kcal/mol
+2022-06-30 22:27:28,472 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:29:24,057 - INFO: Insertion work = -2.437530754999496 kcal/mol
+2022-06-30 22:29:24,064 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:31:21,663 - INFO: Insertion work = -1.3820885851566078 kcal/mol
+2022-06-30 22:31:21,670 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:33:16,530 - INFO: Insertion work = 0.6451162653302929 kcal/mol
+2022-06-30 22:33:16,538 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:35:11,645 - INFO: Insertion work = -0.10675580618523864 kcal/mol
+2022-06-30 22:37:07,643 - INFO: Insertion work = 0.26096252158699934 kcal/mol
+2022-06-30 22:37:07,650 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:39:04,761 - INFO: Insertion work = 0.3251641055317034 kcal/mol
+2022-06-30 22:39:04,769 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:41:00,283 - INFO: Insertion work = -1.627155761706358 kcal/mol
+2022-06-30 22:42:55,213 - INFO: Insertion work = 2.619206676874884 kcal/mol
+2022-06-30 22:42:55,221 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:44:50,343 - INFO: Insertion work = -2.0163685976982615 kcal/mol
+2022-06-30 22:46:45,802 - INFO: Insertion work = 0.517870508308874 kcal/mol
+2022-06-30 22:46:45,810 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:48:41,403 - INFO: Insertion work = 0.7078683605447872 kcal/mol
+2022-06-30 22:48:41,410 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:50:36,705 - INFO: Insertion work = -1.3841809065505883 kcal/mol
+2022-06-30 22:52:32,609 - INFO: Insertion work = 0.19136371124842744 kcal/mol
+2022-06-30 22:52:32,616 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:54:27,809 - INFO: Insertion work = 1.4554798595489877 kcal/mol
+2022-06-30 22:54:27,816 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 22:56:24,971 - INFO: Insertion work = -1.6213292588771886 kcal/mol
+2022-06-30 22:58:20,338 - INFO: Insertion work = -0.4504092312466905 kcal/mol
+2022-06-30 23:00:15,818 - INFO: Insertion work = 13.30991153250027 kcal/mol
+2022-06-30 23:00:15,825 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:02:10,801 - INFO: Insertion work = 0.5971558178248789 kcal/mol
+2022-06-30 23:02:10,809 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:04:05,828 - INFO: Insertion work = 0.37172707435444274 kcal/mol
+2022-06-30 23:04:05,835 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:06:01,090 - INFO: Insertion work = 11.49859947969789 kcal/mol
+2022-06-30 23:06:01,097 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:07:56,655 - INFO: Insertion work = 0.10531951456747395 kcal/mol
+2022-06-30 23:09:52,004 - INFO: Insertion work = 0.5073623928614468 kcal/mol
+2022-06-30 23:11:47,466 - INFO: Insertion work = -0.3261898124406212 kcal/mol
+2022-06-30 23:13:42,725 - INFO: Insertion work = -1.1639873793568594 kcal/mol
+2022-06-30 23:15:37,644 - INFO: Insertion work = 5.731125340013932 kcal/mol
+2022-06-30 23:15:37,651 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:15:39,129 - INFO: Resetting any tracked variables...
+2022-06-30 23:17:34,299 - INFO: Insertion work = 5.610293116759735 kcal/mol
+2022-06-30 23:17:34,306 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:17:34,333 - INFO: 1 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:17:35,066 - INFO: 2 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:19:30,865 - INFO: Insertion work = 0.8353049365245329 kcal/mol
+2022-06-30 23:19:31,021 - INFO: 3 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:21:26,008 - INFO: Insertion work = -0.7709287745049173 kcal/mol
+2022-06-30 23:21:26,041 - INFO: 4 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:21:26,786 - INFO: 5 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:21:27,344 - INFO: 6 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:23:22,033 - INFO: Insertion work = -0.7174527697175266 kcal/mol
+2022-06-30 23:23:22,040 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:23:22,067 - INFO: 7 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:23:22,886 - INFO: 8 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:23:23,443 - INFO: 9 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:23:24,003 - INFO: 10 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:25:19,123 - INFO: Insertion work = -1.927504604116945 kcal/mol
+2022-06-30 23:25:19,156 - INFO: 11 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:25:20,055 - INFO: 12 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:25:20,610 - INFO: 13 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:25:21,169 - INFO: 14 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:27:16,386 - INFO: Insertion work = 0.1933961258297528 kcal/mol
+2022-06-30 23:27:16,394 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:27:16,420 - INFO: 15 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:29:11,577 - INFO: Insertion work = 1.0176163205047224 kcal/mol
+2022-06-30 23:29:11,585 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:29:11,611 - INFO: 16 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:29:12,285 - INFO: 17 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:31:06,994 - INFO: Insertion work = -4.049030416284522 kcal/mol
+2022-06-30 23:31:07,028 - INFO: 18 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:31:07,783 - INFO: 19 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:31:08,342 - INFO: 20 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:33:03,366 - INFO: Insertion work = 0.31998104554509266 kcal/mol
+2022-06-30 23:33:03,374 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:33:03,400 - INFO: 21 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:34:58,485 - INFO: Insertion work = 0.3641921934831067 kcal/mol
+2022-06-30 23:34:58,492 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:34:58,519 - INFO: 22 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:34:59,427 - INFO: 23 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:36:55,168 - INFO: Insertion work = 3.874195891656837 kcal/mol
+2022-06-30 23:36:55,175 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:36:55,202 - INFO: 24 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:36:55,803 - INFO: 25 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:38:51,538 - INFO: Insertion work = 0.9069831905633615 kcal/mol
+2022-06-30 23:38:51,545 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:38:51,573 - INFO: 26 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:38:52,256 - INFO: 27 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:38:52,812 - INFO: 28 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:38:53,367 - INFO: 29 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:40:48,383 - INFO: Insertion work = 0.8957047436905504 kcal/mol
+2022-06-30 23:40:48,390 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:40:48,417 - INFO: 30 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:42:43,692 - INFO: Insertion work = 1.149325331783872 kcal/mol
+2022-06-30 23:42:43,699 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:42:43,726 - INFO: 31 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:44:39,215 - INFO: Insertion work = 0.9407363743516877 kcal/mol
+2022-06-30 23:44:39,223 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:44:39,250 - INFO: 32 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:46:34,988 - INFO: Insertion work = 0.5016446590599871 kcal/mol
+2022-06-30 23:46:34,996 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:46:35,022 - INFO: 33 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:48:31,262 - INFO: Insertion work = 3.0163761704000867 kcal/mol
+2022-06-30 23:48:31,456 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:48:31,518 - INFO: 34 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:48:32,185 - INFO: 35 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:48:32,747 - INFO: 36 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:50:28,678 - INFO: Insertion work = 1.735128530093691 kcal/mol
+2022-06-30 23:50:28,922 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:50:28,968 - INFO: 37 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:50:29,791 - INFO: 38 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:50:30,351 - INFO: 39 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:50:30,911 - INFO: 40 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:50:31,467 - INFO: 41 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:52:26,534 - INFO: Insertion work = 2.3457492114847036 kcal/mol
+2022-06-30 23:52:26,542 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:52:26,570 - INFO: 42 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:52:27,393 - INFO: 43 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:52:27,955 - INFO: 44 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:54:22,972 - INFO: Insertion work = 4.693072295294055 kcal/mol
+2022-06-30 23:54:23,020 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:54:23,061 - INFO: 45 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:54:23,992 - INFO: 46 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:54:24,551 - INFO: 47 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:56:19,868 - INFO: Insertion work = 0.6598673228786147 kcal/mol
+2022-06-30 23:56:19,875 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:56:19,902 - INFO: 48 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:56:20,519 - INFO: 49 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:58:16,421 - INFO: Insertion work = -0.6899184933672169 kcal/mol
+2022-06-30 23:58:16,629 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-06-30 23:58:16,672 - INFO: 50 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-06-30 23:58:17,430 - INFO: 51 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:00:12,372 - INFO: Insertion work = 0.884049019968155 kcal/mol
+2022-07-01 00:00:12,406 - INFO: 52 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:00:13,172 - INFO: 53 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:00:13,731 - INFO: 54 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:00:14,287 - INFO: 55 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:00:14,847 - INFO: 56 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:00:15,406 - INFO: 57 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:02:11,229 - INFO: Insertion work = 0.2493792961740656 kcal/mol
+2022-07-01 00:02:11,416 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:02:11,531 - INFO: 58 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:04:07,052 - INFO: Insertion work = 1.3483648545003761 kcal/mol
+2022-07-01 00:04:07,059 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:04:07,086 - INFO: 59 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:06:02,944 - INFO: Insertion work = -0.9622165436761176 kcal/mol
+2022-07-01 00:06:02,978 - INFO: 60 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:06:03,591 - INFO: 61 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:07:59,639 - INFO: Insertion work = 0.2933510903150559 kcal/mol
+2022-07-01 00:07:59,843 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:07:59,895 - INFO: 62 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:08:00,677 - INFO: 63 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:09:56,736 - INFO: Insertion work = -3.683097874006724 kcal/mol
+2022-07-01 00:09:57,068 - INFO: 64 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:11:52,472 - INFO: Insertion work = 8.190710457147816 kcal/mol
+2022-07-01 00:11:52,480 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:11:52,508 - INFO: 65 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:11:53,353 - INFO: 66 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:13:48,525 - INFO: Insertion work = 1.6375618055128862 kcal/mol
+2022-07-01 00:13:48,532 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:13:48,559 - INFO: 67 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:13:49,472 - INFO: 68 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:13:50,030 - INFO: 69 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:15:45,209 - INFO: Insertion work = 2.980302651230267 kcal/mol
+2022-07-01 00:15:45,217 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:15:45,244 - INFO: 70 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:15:45,853 - INFO: 71 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:15:46,412 - INFO: 72 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:17:41,626 - INFO: Insertion work = 0.26945569320986024 kcal/mol
+2022-07-01 00:17:41,632 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:17:41,660 - INFO: 73 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:17:42,357 - INFO: 74 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:17:42,915 - INFO: 75 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:17:43,474 - INFO: 76 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:19:38,339 - INFO: Insertion work = -3.026425114046616 kcal/mol
+2022-07-01 00:19:38,375 - INFO: 77 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:21:33,501 - INFO: Insertion work = -0.8425595204637071 kcal/mol
+2022-07-01 00:21:33,509 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:21:33,535 - INFO: 78 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:23:28,849 - INFO: Insertion work = -2.470570264562671 kcal/mol
+2022-07-01 00:23:28,882 - INFO: 79 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:23:29,810 - INFO: 80 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:23:30,366 - INFO: 81 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:23:30,927 - INFO: 82 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:25:26,489 - INFO: Insertion work = 0.4854562750106577 kcal/mol
+2022-07-01 00:25:26,496 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:25:26,523 - INFO: 83 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:27:21,767 - INFO: Insertion work = 2.1572536334237813 kcal/mol
+2022-07-01 00:27:21,773 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:27:21,800 - INFO: 84 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:29:16,757 - INFO: Insertion work = -3.8309032301130053 kcal/mol
+2022-07-01 00:29:16,792 - INFO: 85 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:31:11,800 - INFO: Insertion work = 3.495427308460322 kcal/mol
+2022-07-01 00:31:11,807 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:31:11,834 - INFO: 86 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:33:07,315 - INFO: Insertion work = -4.210924401827667 kcal/mol
+2022-07-01 00:33:07,322 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:33:07,351 - INFO: 87 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:33:08,255 - INFO: 88 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:35:03,425 - INFO: Insertion work = 6.1570289226455515 kcal/mol
+2022-07-01 00:35:03,431 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:35:03,458 - INFO: 89 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:35:04,065 - INFO: 90 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:36:59,158 - INFO: Insertion work = 0.7391458855925025 kcal/mol
+2022-07-01 00:36:59,165 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:36:59,193 - INFO: 91 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:36:59,878 - INFO: 92 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:38:54,714 - INFO: Insertion work = 0.843590839403588 kcal/mol
+2022-07-01 00:38:54,722 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:38:54,749 - INFO: 93 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:38:55,513 - INFO: 94 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:40:50,413 - INFO: Insertion work = -1.2055411982709754 kcal/mol
+2022-07-01 00:40:50,447 - INFO: 95 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:42:45,715 - INFO: Insertion work = 3.261537896001785 kcal/mol
+2022-07-01 00:42:45,722 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:42:45,748 - INFO: 96 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:44:41,300 - INFO: Insertion work = -0.3815383109910352 kcal/mol
+2022-07-01 00:44:41,307 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:44:41,335 - INFO: 97 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:46:36,605 - INFO: Insertion work = 0.321128373187885 kcal/mol
+2022-07-01 00:46:36,613 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:46:36,642 - INFO: 98 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:48:31,494 - INFO: Insertion work = 5.664278546759556 kcal/mol
+2022-07-01 00:48:31,529 - INFO: 99 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:50:26,697 - INFO: Insertion work = 0.8709840771446516 kcal/mol
+2022-07-01 00:50:26,704 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:50:26,731 - INFO: 100 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:50:27,541 - INFO: 101 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:50:28,101 - INFO: 102 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:50:28,658 - INFO: 103 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:50:29,218 - INFO: 104 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:52:24,065 - INFO: Insertion work = 0.012209072513648429 kcal/mol
+2022-07-01 00:52:24,099 - INFO: 105 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:54:19,562 - INFO: Insertion work = 0.4893446586118854 kcal/mol
+2022-07-01 00:54:19,569 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:54:19,598 - INFO: 106 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:54:20,192 - INFO: 107 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:54:20,750 - INFO: 108 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:54:21,313 - INFO: 109 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:56:16,324 - INFO: Insertion work = 0.7674662725413182 kcal/mol
+2022-07-01 00:56:16,331 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 00:56:16,358 - INFO: 110 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 00:58:11,298 - INFO: Insertion work = -0.45421948714536003 kcal/mol
+2022-07-01 00:58:11,332 - INFO: 111 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:00:06,408 - INFO: Insertion work = 1.6298982487607687 kcal/mol
+2022-07-01 01:00:06,416 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:00:06,443 - INFO: 112 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:02:01,536 - INFO: Insertion work = -2.9894396935720504 kcal/mol
+2022-07-01 01:02:01,571 - INFO: 113 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:03:57,019 - INFO: Insertion work = 10.65625347645354 kcal/mol
+2022-07-01 01:03:57,027 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:03:57,055 - INFO: 114 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:05:52,457 - INFO: Insertion work = -1.7356368609909796 kcal/mol
+2022-07-01 01:05:52,465 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:05:52,493 - INFO: 115 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:05:53,157 - INFO: 116 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:07:47,898 - INFO: Insertion work = -0.8975988697798375 kcal/mol
+2022-07-01 01:07:47,906 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:07:47,933 - INFO: 117 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:09:42,928 - INFO: Insertion work = 13.524525423512397 kcal/mol
+2022-07-01 01:09:42,935 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:09:42,962 - INFO: 118 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:09:43,771 - INFO: 119 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:09:44,329 - INFO: 120 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:09:44,887 - INFO: 121 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:09:45,447 - INFO: 122 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:09:46,004 - INFO: 123 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:09:46,560 - INFO: 124 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:11:41,564 - INFO: Insertion work = -3.9654646763185433 kcal/mol
+2022-07-01 01:11:41,598 - INFO: 125 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:13:36,906 - INFO: Insertion work = 0.4887806008352663 kcal/mol
+2022-07-01 01:13:36,913 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:13:36,942 - INFO: 126 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:15:32,142 - INFO: Insertion work = 2.1964164864673354 kcal/mol
+2022-07-01 01:15:32,149 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:15:32,177 - INFO: 127 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:17:27,011 - INFO: Insertion work = -0.2722418367890339 kcal/mol
+2022-07-01 01:17:27,018 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:17:27,047 - INFO: 128 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:17:27,792 - INFO: 129 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:17:28,353 - INFO: 130 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:17:28,911 - INFO: 131 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:19:23,676 - INFO: Insertion work = -0.31416958149427276 kcal/mol
+2022-07-01 01:19:23,683 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:19:23,709 - INFO: 132 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:21:19,059 - INFO: Insertion work = 1.7252664614191089 kcal/mol
+2022-07-01 01:21:19,066 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:21:19,093 - INFO: 133 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:23:14,332 - INFO: Insertion work = -1.2864291914569528 kcal/mol
+2022-07-01 01:23:14,340 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:23:14,367 - INFO: 134 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:23:14,957 - INFO: 135 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:25:10,257 - INFO: Insertion work = -1.368410143158515 kcal/mol
+2022-07-01 01:25:10,265 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:25:10,291 - INFO: 136 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:27:05,140 - INFO: Insertion work = 0.32743844523070137 kcal/mol
+2022-07-01 01:27:05,147 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:27:05,175 - INFO: 137 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:29:00,115 - INFO: Insertion work = 0.03345109815941198 kcal/mol
+2022-07-01 01:29:00,122 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:29:00,150 - INFO: 138 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:30:55,353 - INFO: Insertion work = 0.6278678870548005 kcal/mol
+2022-07-01 01:30:55,360 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:30:55,387 - INFO: 139 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:32:50,694 - INFO: Insertion work = 2.4694657908912 kcal/mol
+2022-07-01 01:32:50,702 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:32:50,729 - INFO: 140 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:32:51,302 - INFO: 141 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:32:51,867 - INFO: 142 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:32:52,430 - INFO: 143 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:34:47,615 - INFO: Insertion work = 1.4038587587927387 kcal/mol
+2022-07-01 01:34:47,622 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:34:47,651 - INFO: 144 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:36:42,396 - INFO: Insertion work = -0.13790787881005834 kcal/mol
+2022-07-01 01:36:42,403 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:36:42,431 - INFO: 145 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:38:37,323 - INFO: Insertion work = -1.7076471041292374 kcal/mol
+2022-07-01 01:38:37,356 - INFO: 146 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:40:33,086 - INFO: Insertion work = 0.783808661930178 kcal/mol
+2022-07-01 01:40:33,094 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:40:33,122 - INFO: 147 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:40:34,000 - INFO: 148 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:42:29,025 - INFO: Insertion work = 0.838197503908021 kcal/mol
+2022-07-01 01:42:29,032 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:42:29,059 - INFO: 149 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:42:29,631 - INFO: 150 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:44:24,800 - INFO: Insertion work = 1.2643827948127986 kcal/mol
+2022-07-01 01:44:24,807 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:44:24,835 - INFO: 151 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:44:25,483 - INFO: 152 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:44:26,045 - INFO: 153 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:46:20,648 - INFO: Insertion work = 0.7087833129660199 kcal/mol
+2022-07-01 01:46:20,655 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:46:20,683 - INFO: 154 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:48:15,634 - INFO: Insertion work = -2.9770420989654713 kcal/mol
+2022-07-01 01:48:15,640 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:48:15,669 - INFO: 155 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:48:16,464 - INFO: 156 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:48:17,021 - INFO: 157 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:48:17,580 - INFO: 158 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:50:12,457 - INFO: Insertion work = -3.0293929147205545 kcal/mol
+2022-07-01 01:50:12,491 - INFO: 159 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:50:13,373 - INFO: 160 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:52:08,396 - INFO: Insertion work = -0.37602330261955313 kcal/mol
+2022-07-01 01:52:08,404 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:52:08,431 - INFO: 161 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:52:09,006 - INFO: 162 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:54:04,234 - INFO: Insertion work = 1.3108684314747867 kcal/mol
+2022-07-01 01:54:04,242 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:54:04,270 - INFO: 163 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:54:04,922 - INFO: 164 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:54:05,483 - INFO: 165 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:54:06,042 - INFO: 166 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:56:00,805 - INFO: Insertion work = -0.483864919185893 kcal/mol
+2022-07-01 01:56:00,812 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:56:00,838 - INFO: 167 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:56:01,567 - INFO: 168 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:56:02,124 - INFO: 169 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:57:56,989 - INFO: Insertion work = 0.3168178507684245 kcal/mol
+2022-07-01 01:57:57,023 - INFO: 170 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:57:57,835 - INFO: 171 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 01:59:52,507 - INFO: Insertion work = 7.7715740052994 kcal/mol
+2022-07-01 01:59:52,514 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 01:59:52,543 - INFO: 172 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:01:47,784 - INFO: Insertion work = 1.572824466459798 kcal/mol
+2022-07-01 02:01:47,791 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:01:47,820 - INFO: 173 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:03:42,299 - INFO: Insertion work = 0.5567177079406957 kcal/mol
+2022-07-01 02:03:42,306 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:03:42,335 - INFO: 174 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:05:37,282 - INFO: Insertion work = 0.2954423425467171 kcal/mol
+2022-07-01 02:05:37,318 - INFO: 175 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:05:38,044 - INFO: 176 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:07:32,924 - INFO: Insertion work = 1.5412643335912883 kcal/mol
+2022-07-01 02:07:32,931 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:07:32,958 - INFO: 177 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:09:28,108 - INFO: Insertion work = 10.337147051152424 kcal/mol
+2022-07-01 02:09:28,114 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:09:28,142 - INFO: 178 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:11:23,545 - INFO: Insertion work = 0.01356667883731622 kcal/mol
+2022-07-01 02:11:23,553 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:11:23,579 - INFO: 179 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:11:24,145 - INFO: 180 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:13:19,324 - INFO: Insertion work = -0.08717950193762294 kcal/mol
+2022-07-01 02:13:19,332 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:13:19,358 - INFO: 181 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:13:20,006 - INFO: 182 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:13:20,563 - INFO: 183 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:15:15,201 - INFO: Insertion work = 1.1090743020452927 kcal/mol
+2022-07-01 02:15:15,208 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:15:15,234 - INFO: 184 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:17:10,377 - INFO: Insertion work = 0.07377134420798984 kcal/mol
+2022-07-01 02:17:10,383 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:17:10,411 - INFO: 185 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:19:05,645 - INFO: Insertion work = 1.3586886317948161 kcal/mol
+2022-07-01 02:19:05,653 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:19:05,680 - INFO: 186 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:21:01,118 - INFO: Insertion work = -0.42848235524186745 kcal/mol
+2022-07-01 02:21:01,125 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:21:01,152 - INFO: 187 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:21:02,092 - INFO: 188 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:22:57,254 - INFO: Insertion work = 1.4152213259191422 kcal/mol
+2022-07-01 02:22:57,261 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:22:57,290 - INFO: 189 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:22:57,932 - INFO: 190 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:22:58,488 - INFO: 191 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:22:59,046 - INFO: 192 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:22:59,602 - INFO: 193 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:24:54,282 - INFO: Insertion work = 2.1094341348789163 kcal/mol
+2022-07-01 02:24:54,290 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:24:54,318 - INFO: 194 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:24:55,038 - INFO: 195 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:24:55,595 - INFO: 196 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:26:50,431 - INFO: Insertion work = -2.508430539948219 kcal/mol
+2022-07-01 02:26:50,466 - INFO: 197 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:26:51,268 - INFO: 198 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:28:46,203 - INFO: Insertion work = -0.418731103825735 kcal/mol
+2022-07-01 02:28:46,210 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:28:46,238 - INFO: 199 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:30:41,540 - INFO: Insertion work = 2.28519489052465 kcal/mol
+2022-07-01 02:30:41,547 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:30:41,574 - INFO: 200 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:32:36,970 - INFO: Insertion work = 3.6388464084155037 kcal/mol
+2022-07-01 02:32:36,978 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:32:37,006 - INFO: 201 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:34:31,543 - INFO: Insertion work = 0.8915763498701501 kcal/mol
+2022-07-01 02:34:31,550 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:34:31,578 - INFO: 202 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:36:26,627 - INFO: Insertion work = -2.372760209922692 kcal/mol
+2022-07-01 02:36:26,633 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:36:26,661 - INFO: 203 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:36:27,454 - INFO: 204 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:36:28,015 - INFO: 205 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:38:22,977 - INFO: Insertion work = 0.6766906345350291 kcal/mol
+2022-07-01 02:38:22,985 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:38:23,013 - INFO: 206 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:38:23,882 - INFO: 207 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:40:18,902 - INFO: Insertion work = -3.93750650284457 kcal/mol
+2022-07-01 02:40:18,943 - INFO: 208 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:42:14,162 - INFO: Insertion work = 5.6101902705562985 kcal/mol
+2022-07-01 02:42:14,169 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:42:14,197 - INFO: 209 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:44:08,938 - INFO: Insertion work = 2.2766561170391815 kcal/mol
+2022-07-01 02:44:08,945 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:44:08,972 - INFO: 210 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:46:03,989 - INFO: Insertion work = -0.7148018990728805 kcal/mol
+2022-07-01 02:46:04,024 - INFO: 211 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:47:59,118 - INFO: Insertion work = -5.134860126501539 kcal/mol
+2022-07-01 02:47:59,153 - INFO: 212 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:48:00,014 - INFO: 213 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:48:00,572 - INFO: 214 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:48:01,129 - INFO: 215 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:48:01,690 - INFO: 216 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:49:56,763 - INFO: Insertion work = 1.962599415279997 kcal/mol
+2022-07-01 02:49:56,771 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:49:56,797 - INFO: 217 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:49:57,738 - INFO: 218 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:49:58,288 - INFO: 219 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:51:53,388 - INFO: Insertion work = -2.48481152211022 kcal/mol
+2022-07-01 02:51:53,440 - INFO: 220 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:51:54,085 - INFO: 221 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:53:49,106 - INFO: Insertion work = 1.3959287106189484 kcal/mol
+2022-07-01 02:53:49,122 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:53:49,187 - INFO: 222 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:55:44,304 - INFO: Insertion work = -2.1711326248536027 kcal/mol
+2022-07-01 02:55:44,339 - INFO: 223 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:57:39,439 - INFO: Insertion work = 2.7350551003245633 kcal/mol
+2022-07-01 02:57:39,446 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 02:57:39,474 - INFO: 224 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:57:40,336 - INFO: 225 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:57:40,893 - INFO: 226 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:57:41,450 - INFO: 227 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:57:42,010 - INFO: 228 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:57:42,569 - INFO: 229 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 02:59:37,580 - INFO: Insertion work = -1.1905775714089586 kcal/mol
+2022-07-01 02:59:37,615 - INFO: 230 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:01:32,827 - INFO: Insertion work = 4.553982246937369 kcal/mol
+2022-07-01 03:01:32,834 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:01:32,861 - INFO: 231 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:03:27,706 - INFO: Insertion work = 0.415273163762357 kcal/mol
+2022-07-01 03:03:27,740 - INFO: 232 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:03:28,459 - INFO: 233 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:03:29,019 - INFO: 234 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:05:23,853 - INFO: Insertion work = -1.1480511621911231 kcal/mol
+2022-07-01 03:05:23,861 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:05:23,888 - INFO: 235 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:05:24,680 - INFO: 236 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:05:25,238 - INFO: 237 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:05:25,794 - INFO: 238 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:05:26,349 - INFO: 239 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:05:26,907 - INFO: 240 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:05:27,464 - INFO: 241 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:05:28,022 - INFO: 242 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:07:23,060 - INFO: Insertion work = -0.44548847840789363 kcal/mol
+2022-07-01 03:07:23,068 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:07:23,096 - INFO: 243 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:09:18,599 - INFO: Insertion work = -1.7868064814821485 kcal/mol
+2022-07-01 03:09:18,633 - INFO: 244 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:11:13,895 - INFO: Insertion work = -3.7626425940881796 kcal/mol
+2022-07-01 03:11:13,929 - INFO: 245 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:13:08,699 - INFO: Insertion work = 1.6932827882410022 kcal/mol
+2022-07-01 03:13:08,705 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:13:08,732 - INFO: 246 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:15:03,878 - INFO: Insertion work = -0.4562325200780979 kcal/mol
+2022-07-01 03:15:03,886 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:15:03,913 - INFO: 247 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:16:58,981 - INFO: Insertion work = 2.431270905594958 kcal/mol
+2022-07-01 03:16:58,988 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:16:59,015 - INFO: 248 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:16:59,894 - INFO: 249 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:18:54,954 - INFO: Insertion work = 0.28222035845905324 kcal/mol
+2022-07-01 03:18:54,987 - INFO: 250 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:20:50,310 - INFO: Insertion work = 5.640393681234354 kcal/mol
+2022-07-01 03:20:50,316 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:20:50,344 - INFO: 251 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:20:50,985 - INFO: 252 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:20:51,541 - INFO: 253 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:20:52,102 - INFO: 254 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:20:52,661 - INFO: 255 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:22:47,326 - INFO: Insertion work = 1.1514572160234824 kcal/mol
+2022-07-01 03:22:47,334 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:22:47,362 - INFO: 256 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:22:48,085 - INFO: 257 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:22:48,645 - INFO: 258 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:24:43,495 - INFO: Insertion work = -0.8098303662465293 kcal/mol
+2022-07-01 03:24:43,502 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:24:43,529 - INFO: 259 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:24:44,335 - INFO: 260 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:24:44,894 - INFO: 261 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:24:45,452 - INFO: 262 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:26:40,457 - INFO: Insertion work = 0.37403466008793634 kcal/mol
+2022-07-01 03:26:40,464 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:26:40,491 - INFO: 263 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:28:35,702 - INFO: Insertion work = -1.3238796616488637 kcal/mol
+2022-07-01 03:28:35,709 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:28:35,736 - INFO: 264 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:30:30,491 - INFO: Insertion work = -0.00412828575225877 kcal/mol
+2022-07-01 03:30:30,497 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:30:30,525 - INFO: 265 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:32:25,515 - INFO: Insertion work = 1.5644842295116779 kcal/mol
+2022-07-01 03:32:25,523 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:32:25,551 - INFO: 266 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:32:26,280 - INFO: 267 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:32:26,840 - INFO: 268 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:34:21,700 - INFO: Insertion work = 0.04554926654828988 kcal/mol
+2022-07-01 03:34:21,707 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:34:21,735 - INFO: 269 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:34:22,548 - INFO: 270 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:36:17,653 - INFO: Insertion work = -1.8731202215359628 kcal/mol
+2022-07-01 03:36:17,688 - INFO: 271 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:38:13,093 - INFO: Insertion work = -1.1295071499975147 kcal/mol
+2022-07-01 03:38:13,100 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:38:13,127 - INFO: 272 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:38:13,696 - INFO: 273 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:38:14,255 - INFO: 274 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:38:14,814 - INFO: 275 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:38:15,374 - INFO: 276 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:40:10,793 - INFO: Insertion work = 1.7144026776867656 kcal/mol
+2022-07-01 03:40:10,800 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:40:10,827 - INFO: 277 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:42:05,691 - INFO: Insertion work = 0.8948400396169002 kcal/mol
+2022-07-01 03:42:05,726 - INFO: 278 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:42:06,459 - INFO: 279 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:42:07,017 - INFO: 280 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:42:07,578 - INFO: 281 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:44:02,419 - INFO: Insertion work = 8.372230615600834 kcal/mol
+2022-07-01 03:44:02,427 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:44:02,455 - INFO: 282 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:44:03,265 - INFO: 283 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:44:03,825 - INFO: 284 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:45:58,537 - INFO: Insertion work = -0.03935310422677688 kcal/mol
+2022-07-01 03:45:58,544 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:45:58,572 - INFO: 285 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:45:59,462 - INFO: 286 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:47:54,767 - INFO: Insertion work = -2.5328702027228336 kcal/mol
+2022-07-01 03:47:54,803 - INFO: 287 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:49:49,863 - INFO: Insertion work = -0.4321673735183806 kcal/mol
+2022-07-01 03:49:49,870 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:49:49,897 - INFO: 288 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:51:44,847 - INFO: Insertion work = 0.24520906334365972 kcal/mol
+2022-07-01 03:51:44,854 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:51:44,882 - INFO: 289 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:51:45,618 - INFO: 290 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:53:40,559 - INFO: Insertion work = -1.0140174237457469 kcal/mol
+2022-07-01 03:53:40,566 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:53:40,593 - INFO: 291 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:53:41,407 - INFO: 292 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:53:41,965 - INFO: 293 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:53:42,526 - INFO: 294 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:53:43,087 - INFO: 295 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:55:37,929 - INFO: Insertion work = 0.4782026926216597 kcal/mol
+2022-07-01 03:55:37,937 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:55:37,966 - INFO: 296 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:55:38,863 - INFO: 297 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:57:33,987 - INFO: Insertion work = -2.412372998168507 kcal/mol
+2022-07-01 03:57:34,021 - INFO: 298 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 03:59:29,400 - INFO: Insertion work = 0.5049554617869859 kcal/mol
+2022-07-01 03:59:29,408 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 03:59:29,435 - INFO: 299 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:01:24,268 - INFO: Insertion work = 2.2073846394850616 kcal/mol
+2022-07-01 04:01:24,275 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:01:24,303 - INFO: 300 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:03:19,473 - INFO: Insertion work = 1.6076815296561155 kcal/mol
+2022-07-01 04:03:19,481 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:03:19,510 - INFO: 301 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:03:20,322 - INFO: 302 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:03:20,880 - INFO: 303 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:03:21,436 - INFO: 304 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:03:21,993 - INFO: 305 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:05:16,781 - INFO: Insertion work = 0.04500952293521018 kcal/mol
+2022-07-01 04:05:16,788 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:05:16,815 - INFO: 306 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:07:12,303 - INFO: Insertion work = -2.1838889779820447 kcal/mol
+2022-07-01 04:07:12,310 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:07:12,339 - INFO: 307 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:07:12,921 - INFO: 308 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:07:13,478 - INFO: 309 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:07:14,038 - INFO: 310 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:07:14,596 - INFO: 311 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:07:15,153 - INFO: 312 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:07:15,709 - INFO: 313 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:07:16,269 - INFO: 314 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:09:11,831 - INFO: Insertion work = -0.7104320363916224 kcal/mol
+2022-07-01 04:09:11,867 - INFO: 315 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:11:06,837 - INFO: Insertion work = -0.12242293534453845 kcal/mol
+2022-07-01 04:11:06,843 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:11:06,871 - INFO: 316 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:11:07,618 - INFO: 317 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:13:02,371 - INFO: Insertion work = -0.5931949146010927 kcal/mol
+2022-07-01 04:13:02,379 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:13:02,406 - INFO: 318 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:14:57,796 - INFO: Insertion work = -0.8961508613383408 kcal/mol
+2022-07-01 04:14:57,831 - INFO: 319 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:16:53,304 - INFO: Insertion work = -2.1771043466705016 kcal/mol
+2022-07-01 04:16:53,338 - INFO: 320 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:18:48,541 - INFO: Insertion work = 0.27540403919741513 kcal/mol
+2022-07-01 04:18:48,576 - INFO: 321 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:18:49,240 - INFO: 322 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:20:44,026 - INFO: Insertion work = -0.5723666364659132 kcal/mol
+2022-07-01 04:20:44,034 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:20:44,062 - INFO: 323 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:22:39,099 - INFO: Insertion work = 2.614021454913278 kcal/mol
+2022-07-01 04:22:39,107 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:22:39,135 - INFO: 324 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:24:34,345 - INFO: Insertion work = -2.1362108629518257 kcal/mol
+2022-07-01 04:24:34,381 - INFO: 325 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:26:29,712 - INFO: Insertion work = 0.8110179651321908 kcal/mol
+2022-07-01 04:26:29,720 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:26:29,746 - INFO: 326 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:28:25,009 - INFO: Insertion work = -2.567333926203666 kcal/mol
+2022-07-01 04:28:25,042 - INFO: 327 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:30:19,686 - INFO: Insertion work = -0.5961353637956546 kcal/mol
+2022-07-01 04:30:19,693 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:30:19,722 - INFO: 328 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:32:14,746 - INFO: Insertion work = -0.12060577786850843 kcal/mol
+2022-07-01 04:32:14,753 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:32:14,781 - INFO: 329 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:34:09,796 - INFO: Insertion work = 0.514683891292557 kcal/mol
+2022-07-01 04:34:09,803 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:34:09,829 - INFO: 330 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:34:10,695 - INFO: 331 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:36:05,777 - INFO: Insertion work = 15.719657040360978 kcal/mol
+2022-07-01 04:36:05,784 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:36:05,810 - INFO: 332 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:38:01,088 - INFO: Insertion work = -0.9641098781746124 kcal/mol
+2022-07-01 04:38:01,095 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:38:01,122 - INFO: 333 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:38:01,764 - INFO: 334 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:38:02,326 - INFO: 335 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:39:57,046 - INFO: Insertion work = 1.1837922636420382 kcal/mol
+2022-07-01 04:39:57,053 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:39:57,081 - INFO: 336 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:39:57,803 - INFO: 337 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:41:52,629 - INFO: Insertion work = -0.7006435547211862 kcal/mol
+2022-07-01 04:41:52,637 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:41:52,665 - INFO: 338 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:43:47,874 - INFO: Insertion work = 0.7111615410972043 kcal/mol
+2022-07-01 04:43:47,882 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:43:47,908 - INFO: 339 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:43:48,776 - INFO: 340 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:45:43,760 - INFO: Insertion work = -0.5626510326233233 kcal/mol
+2022-07-01 04:45:43,766 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:45:43,793 - INFO: 341 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:47:39,399 - INFO: Insertion work = -3.3479339751324977 kcal/mol
+2022-07-01 04:47:39,435 - INFO: 342 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:47:40,074 - INFO: 343 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:49:35,392 - INFO: Insertion work = 3.9050518057062353 kcal/mol
+2022-07-01 04:49:35,399 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:49:35,426 - INFO: 344 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:51:30,374 - INFO: Insertion work = -2.7829088654857044 kcal/mol
+2022-07-01 04:51:30,409 - INFO: 345 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:53:25,525 - INFO: Insertion work = -0.6053760288511204 kcal/mol
+2022-07-01 04:53:25,532 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:53:25,559 - INFO: 346 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:55:20,945 - INFO: Insertion work = -2.934802481564057 kcal/mol
+2022-07-01 04:55:20,979 - INFO: 347 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:55:21,913 - INFO: 348 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:57:17,216 - INFO: Insertion work = 0.5595067812127298 kcal/mol
+2022-07-01 04:57:17,224 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:57:17,251 - INFO: 349 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:59:12,428 - INFO: Insertion work = 1.6111637143788624 kcal/mol
+2022-07-01 04:59:12,435 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 04:59:12,464 - INFO: 350 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 04:59:13,158 - INFO: 351 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:01:07,944 - INFO: Insertion work = 2.489976223200257 kcal/mol
+2022-07-01 05:01:07,951 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:01:07,979 - INFO: 352 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:03:03,156 - INFO: Insertion work = 0.5672772449038851 kcal/mol
+2022-07-01 05:03:03,164 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:03:03,191 - INFO: 353 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:04:58,453 - INFO: Insertion work = -0.30186262222570087 kcal/mol
+2022-07-01 05:04:58,460 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:04:58,488 - INFO: 354 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:04:59,406 - INFO: 355 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:06:54,488 - INFO: Insertion work = 19.375251981507308 kcal/mol
+2022-07-01 05:06:54,496 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:06:54,524 - INFO: 356 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:06:55,138 - INFO: 357 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:06:55,697 - INFO: 358 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:08:51,140 - INFO: Insertion work = -2.5779679380326113 kcal/mol
+2022-07-01 05:08:51,162 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:08:51,190 - INFO: 359 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:08:51,893 - INFO: 360 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:08:52,451 - INFO: 361 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:08:53,013 - INFO: 362 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:10:47,896 - INFO: Insertion work = 6.750117364973035 kcal/mol
+2022-07-01 05:10:47,903 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:10:47,930 - INFO: 363 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:10:48,706 - INFO: 364 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:10:49,261 - INFO: 365 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:10:49,820 - INFO: 366 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:10:50,379 - INFO: 367 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:12:45,325 - INFO: Insertion work = -2.353161685484825 kcal/mol
+2022-07-01 05:12:45,359 - INFO: 368 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:12:46,210 - INFO: 369 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:12:46,765 - INFO: 370 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:12:47,323 - INFO: 371 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:12:47,883 - INFO: 372 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:12:48,438 - INFO: 373 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:12:48,996 - INFO: 374 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:12:49,553 - INFO: 375 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:12:50,109 - INFO: 376 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:14:45,252 - INFO: Insertion work = 1.1193279136772674 kcal/mol
+2022-07-01 05:14:45,259 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:14:45,288 - INFO: 377 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:14:45,858 - INFO: 378 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:16:41,117 - INFO: Insertion work = -2.2376058812397446 kcal/mol
+2022-07-01 05:16:41,152 - INFO: 379 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:18:35,997 - INFO: Insertion work = 2.7121632884903883 kcal/mol
+2022-07-01 05:18:36,005 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:18:36,032 - INFO: 380 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:18:36,751 - INFO: 381 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:18:37,310 - INFO: 382 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:20:32,315 - INFO: Insertion work = 3.9315454778261456 kcal/mol
+2022-07-01 05:20:32,323 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:20:32,351 - INFO: 383 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:22:27,317 - INFO: Insertion work = 0.3580475084921679 kcal/mol
+2022-07-01 05:22:27,324 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:22:27,352 - INFO: 384 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:24:22,788 - INFO: Insertion work = -0.004576298933077985 kcal/mol
+2022-07-01 05:24:22,795 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:24:22,823 - INFO: 385 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:24:23,388 - INFO: 386 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:24:23,944 - INFO: 387 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:24:24,501 - INFO: 388 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:24:25,060 - INFO: 389 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:24:25,620 - INFO: 390 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:26:20,859 - INFO: Insertion work = -0.4919347408148389 kcal/mol
+2022-07-01 05:26:20,867 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:26:20,893 - INFO: 391 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:28:15,597 - INFO: Insertion work = -0.056329485726594006 kcal/mol
+2022-07-01 05:28:15,605 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:28:15,633 - INFO: 392 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:28:16,360 - INFO: 393 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:28:16,919 - INFO: 394 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:28:17,478 - INFO: 395 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:28:18,036 - INFO: 396 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:30:13,095 - INFO: Insertion work = 1.3738759148605029 kcal/mol
+2022-07-01 05:30:13,102 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:30:13,128 - INFO: 397 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:32:08,398 - INFO: Insertion work = -0.46737731709750086 kcal/mol
+2022-07-01 05:32:08,405 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:32:08,433 - INFO: 398 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:34:03,424 - INFO: Insertion work = 1.1221208915369905 kcal/mol
+2022-07-01 05:34:03,459 - INFO: 399 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:35:58,511 - INFO: Insertion work = 1.982965950126696 kcal/mol
+2022-07-01 05:35:58,518 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:35:58,546 - INFO: 400 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:37:53,440 - INFO: Insertion work = 6.9270693766818 kcal/mol
+2022-07-01 05:37:53,448 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:37:53,475 - INFO: 401 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:37:54,202 - INFO: 402 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:37:54,761 - INFO: 403 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:37:55,322 - INFO: 404 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:37:55,882 - INFO: 405 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:39:50,726 - INFO: Insertion work = -2.920958924966016 kcal/mol
+2022-07-01 05:39:50,760 - INFO: 406 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:39:51,565 - INFO: 407 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:41:46,417 - INFO: Insertion work = 0.6551921467700108 kcal/mol
+2022-07-01 05:41:46,424 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:41:46,451 - INFO: 408 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:43:41,970 - INFO: Insertion work = 3.7398318870057077 kcal/mol
+2022-07-01 05:43:41,978 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:43:42,007 - INFO: 409 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:43:42,582 - INFO: 410 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:43:43,138 - INFO: 411 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:45:38,419 - INFO: Insertion work = 0.26000977147024257 kcal/mol
+2022-07-01 05:45:38,426 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:45:38,453 - INFO: 412 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:45:39,113 - INFO: 413 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:45:39,671 - INFO: 414 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:45:40,230 - INFO: 415 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:47:34,824 - INFO: Insertion work = -0.3546287700085126 kcal/mol
+2022-07-01 05:47:34,831 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:47:34,859 - INFO: 416 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:49:29,799 - INFO: Insertion work = -2.552025470258065 kcal/mol
+2022-07-01 05:49:29,834 - INFO: 417 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:51:24,985 - INFO: Insertion work = 0.32261385651168606 kcal/mol
+2022-07-01 05:51:24,992 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:51:25,020 - INFO: 418 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:53:20,354 - INFO: Insertion work = -1.0313787815885826 kcal/mol
+2022-07-01 05:53:20,362 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:53:20,388 - INFO: 419 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:55:15,439 - INFO: Insertion work = 13.910780147233986 kcal/mol
+2022-07-01 05:55:15,447 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:55:15,475 - INFO: 420 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:55:16,122 - INFO: 421 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:55:16,681 - INFO: 422 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:57:11,462 - INFO: Insertion work = 1.0769096462244785 kcal/mol
+2022-07-01 05:57:11,496 - INFO: 423 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:57:12,226 - INFO: 424 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:59:07,193 - INFO: Insertion work = 0.056138081018891284 kcal/mol
+2022-07-01 05:59:07,200 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 05:59:07,227 - INFO: 425 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 05:59:08,032 - INFO: 426 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:01:03,115 - INFO: Insertion work = -3.679696727814739 kcal/mol
+2022-07-01 06:01:03,150 - INFO: 427 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:02:58,462 - INFO: Insertion work = -2.055650749123595 kcal/mol
+2022-07-01 06:02:58,496 - INFO: 428 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:02:59,068 - INFO: 429 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:04:54,302 - INFO: Insertion work = 7.221142867362814 kcal/mol
+2022-07-01 06:04:54,336 - INFO: 430 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:04:54,986 - INFO: 431 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:04:55,546 - INFO: 432 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:04:56,102 - INFO: 433 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:06:50,766 - INFO: Insertion work = -3.5138523392423737 kcal/mol
+2022-07-01 06:06:50,799 - INFO: 434 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:06:51,526 - INFO: 435 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:06:52,086 - INFO: 436 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:06:52,644 - INFO: 437 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:08:47,333 - INFO: Insertion work = -3.950892872656524 kcal/mol
+2022-07-01 06:08:47,394 - INFO: 438 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:10:42,581 - INFO: Insertion work = 1.3984972510903493 kcal/mol
+2022-07-01 06:10:42,588 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:10:42,616 - INFO: 439 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:12:38,063 - INFO: Insertion work = 0.7369672956036825 kcal/mol
+2022-07-01 06:12:38,070 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:12:38,096 - INFO: 440 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:14:33,327 - INFO: Insertion work = -0.6542053145096527 kcal/mol
+2022-07-01 06:14:33,334 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:14:33,361 - INFO: 441 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:16:27,985 - INFO: Insertion work = -3.712269966969133 kcal/mol
+2022-07-01 06:16:28,020 - INFO: 442 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:16:28,746 - INFO: 443 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:16:29,306 - INFO: 444 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:16:29,863 - INFO: 445 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:18:24,682 - INFO: Insertion work = 0.28229218459799477 kcal/mol
+2022-07-01 06:18:24,689 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:18:24,717 - INFO: 446 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:18:25,518 - INFO: 447 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:18:26,076 - INFO: 448 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:20:21,117 - INFO: Insertion work = -2.2820843368978787 kcal/mol
+2022-07-01 06:20:21,125 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:20:21,153 - INFO: 449 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:20:22,033 - INFO: 450 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:22:17,223 - INFO: Insertion work = -4.002583590776863 kcal/mol
+2022-07-01 06:22:17,256 - INFO: 451 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:24:11,807 - INFO: Insertion work = 3.3877199281645467 kcal/mol
+2022-07-01 06:24:11,814 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:24:11,841 - INFO: 452 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:26:06,791 - INFO: Insertion work = -2.916369472604062 kcal/mol
+2022-07-01 06:26:06,798 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:26:06,824 - INFO: 453 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:26:07,555 - INFO: 454 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:28:02,425 - INFO: Insertion work = -0.3414616584386092 kcal/mol
+2022-07-01 06:28:02,432 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:28:02,459 - INFO: 455 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:29:57,493 - INFO: Insertion work = 2.754987147258308 kcal/mol
+2022-07-01 06:29:57,500 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:29:57,529 - INFO: 456 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:31:52,965 - INFO: Insertion work = -2.2013412761131566 kcal/mol
+2022-07-01 06:31:52,973 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:31:52,999 - INFO: 457 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:31:53,566 - INFO: 458 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:33:48,806 - INFO: Insertion work = 4.528039304263983 kcal/mol
+2022-07-01 06:33:48,814 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:33:48,842 - INFO: 459 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:35:43,450 - INFO: Insertion work = -1.7471736195509657 kcal/mol
+2022-07-01 06:35:43,456 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:35:43,484 - INFO: 460 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:35:44,199 - INFO: 461 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:37:39,096 - INFO: Insertion work = 0.5411563798861759 kcal/mol
+2022-07-01 06:37:39,104 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:37:39,131 - INFO: 462 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:39:34,501 - INFO: Insertion work = 3.293491045494317 kcal/mol
+2022-07-01 06:39:34,638 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:39:34,710 - INFO: 463 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:41:30,049 - INFO: Insertion work = -1.201688414608732 kcal/mol
+2022-07-01 06:41:30,083 - INFO: 464 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:43:25,817 - INFO: Insertion work = 10.174957774083133 kcal/mol
+2022-07-01 06:43:25,824 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:43:25,851 - INFO: 465 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:43:26,477 - INFO: 466 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:45:21,780 - INFO: Insertion work = 0.34131354169989436 kcal/mol
+2022-07-01 06:45:21,787 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:45:21,815 - INFO: 467 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:45:22,515 - INFO: 468 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:45:23,074 - INFO: 469 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:47:17,957 - INFO: Insertion work = 0.9817275669190719 kcal/mol
+2022-07-01 06:47:17,964 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:47:17,992 - INFO: 470 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:49:13,013 - INFO: Insertion work = 0.37830097991020667 kcal/mol
+2022-07-01 06:49:13,021 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:49:13,049 - INFO: 471 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:49:13,910 - INFO: 472 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:49:14,467 - INFO: 473 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:51:09,388 - INFO: Insertion work = -1.9534080351963758 kcal/mol
+2022-07-01 06:51:09,421 - INFO: 474 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:53:04,824 - INFO: Insertion work = -0.9778165416507073 kcal/mol
+2022-07-01 06:53:04,832 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:53:04,859 - INFO: 475 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:55:00,147 - INFO: Insertion work = 5.297042829666582 kcal/mol
+2022-07-01 06:55:00,154 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:55:00,183 - INFO: 476 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:56:55,123 - INFO: Insertion work = -1.1664263005493103 kcal/mol
+2022-07-01 06:56:55,130 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:56:55,158 - INFO: 477 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:58:50,130 - INFO: Insertion work = -0.4572867325473298 kcal/mol
+2022-07-01 06:58:50,137 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 06:58:50,165 - INFO: 478 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:58:51,003 - INFO: 479 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:58:51,564 - INFO: 480 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 06:58:52,124 - INFO: 481 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:00:47,124 - INFO: Insertion work = -1.5519317386989764 kcal/mol
+2022-07-01 07:00:47,158 - INFO: 482 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:00:48,084 - INFO: 483 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:02:43,178 - INFO: Insertion work = -3.3718012009540788 kcal/mol
+2022-07-01 07:02:43,214 - INFO: 484 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:04:38,575 - INFO: Insertion work = 2.15686049203729 kcal/mol
+2022-07-01 07:04:38,583 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:04:38,610 - INFO: 485 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:06:33,428 - INFO: Insertion work = -3.8948597028218406 kcal/mol
+2022-07-01 07:06:33,464 - INFO: 486 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:06:34,235 - INFO: 487 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:06:34,795 - INFO: 488 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:08:29,733 - INFO: Insertion work = 1.0174963470031158 kcal/mol
+2022-07-01 07:08:29,740 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:08:29,767 - INFO: 489 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:10:24,965 - INFO: Insertion work = -3.7167149086293163 kcal/mol
+2022-07-01 07:10:24,999 - INFO: 490 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:10:25,918 - INFO: 491 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:10:26,480 - INFO: 492 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:10:27,039 - INFO: 493 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:10:27,596 - INFO: 494 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:10:28,152 - INFO: 495 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:10:28,709 - INFO: 496 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:12:23,788 - INFO: Insertion work = -1.990826168472843 kcal/mol
+2022-07-01 07:12:23,795 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:12:23,823 - INFO: 497 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:14:19,251 - INFO: Insertion work = -4.452750716551184 kcal/mol
+2022-07-01 07:14:19,286 - INFO: 498 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:14:19,990 - INFO: 499 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:14:20,546 - INFO: 500 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:14:21,105 - INFO: 501 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:14:21,666 - INFO: 502 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:16:16,470 - INFO: Insertion work = 0.5196267800707421 kcal/mol
+2022-07-01 07:16:16,478 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:16:16,505 - INFO: 503 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:16:17,290 - INFO: 504 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:18:12,413 - INFO: Insertion work = -0.4422393499252135 kcal/mol
+2022-07-01 07:18:12,420 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:18:12,448 - INFO: 505 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:18:13,315 - INFO: 506 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:18:13,874 - INFO: 507 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:20:08,781 - INFO: Insertion work = -0.011200401751706867 kcal/mol
+2022-07-01 07:20:08,789 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:20:08,815 - INFO: 508 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:22:04,384 - INFO: Insertion work = 2.6189869876401555 kcal/mol
+2022-07-01 07:22:04,390 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:22:04,417 - INFO: 509 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:22:05,050 - INFO: 510 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:22:05,607 - INFO: 511 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:22:06,165 - INFO: 512 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:24:00,709 - INFO: Insertion work = -1.455416925047591 kcal/mol
+2022-07-01 07:24:00,745 - INFO: 513 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:24:01,468 - INFO: 514 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:25:56,401 - INFO: Insertion work = 2.1646525512714705 kcal/mol
+2022-07-01 07:25:56,408 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:25:56,437 - INFO: 515 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:27:51,695 - INFO: Insertion work = 1.2128317729083824 kcal/mol
+2022-07-01 07:27:51,702 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:27:51,730 - INFO: 516 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:29:47,037 - INFO: Insertion work = 17.626118322034795 kcal/mol
+2022-07-01 07:29:47,044 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:29:47,072 - INFO: 517 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:29:48,005 - INFO: 518 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:29:48,564 - INFO: 519 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:31:43,720 - INFO: Insertion work = 2.1121571451825316 kcal/mol
+2022-07-01 07:31:43,753 - INFO: 520 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:31:44,393 - INFO: 521 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:31:44,952 - INFO: 522 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:31:45,512 - INFO: 523 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:33:40,269 - INFO: Insertion work = -1.9892812920774332 kcal/mol
+2022-07-01 07:33:40,277 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:33:40,304 - INFO: 524 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:33:41,019 - INFO: 525 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:35:35,852 - INFO: Insertion work = 1.6906873399149651 kcal/mol
+2022-07-01 07:35:35,860 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:35:35,887 - INFO: 526 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:37:31,013 - INFO: Insertion work = -4.132743493696577 kcal/mol
+2022-07-01 07:37:31,049 - INFO: 527 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:37:31,914 - INFO: 528 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:37:32,471 - INFO: 529 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:37:33,027 - INFO: 530 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:37:33,585 - INFO: 531 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:39:28,643 - INFO: Insertion work = 2.1715578410541223 kcal/mol
+2022-07-01 07:39:28,752 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:39:28,790 - INFO: 532 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:39:29,455 - INFO: 533 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:39:30,012 - INFO: 534 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:39:30,570 - INFO: 535 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:41:25,728 - INFO: Insertion work = -1.314443340166659 kcal/mol
+2022-07-01 07:41:25,734 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:41:25,761 - INFO: 536 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:43:20,450 - INFO: Insertion work = -2.125849725576618 kcal/mol
+2022-07-01 07:43:20,484 - INFO: 537 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:45:15,429 - INFO: Insertion work = -4.423226866680586 kcal/mol
+2022-07-01 07:45:15,465 - INFO: 538 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:45:16,261 - INFO: 539 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:47:11,169 - INFO: Insertion work = -1.1878418074506796 kcal/mol
+2022-07-01 07:47:11,177 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:47:11,203 - INFO: 540 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:47:12,076 - INFO: 541 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:49:07,094 - INFO: Insertion work = 1.229336630618894 kcal/mol
+2022-07-01 07:49:07,128 - INFO: 542 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:51:02,374 - INFO: Insertion work = 0.20163794202608556 kcal/mol
+2022-07-01 07:51:02,382 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:51:02,410 - INFO: 543 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:51:03,054 - INFO: 544 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:52:57,721 - INFO: Insertion work = -3.522533943309464 kcal/mol
+2022-07-01 07:52:57,729 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:52:57,759 - INFO: 545 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:52:58,478 - INFO: 546 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:54:53,284 - INFO: Insertion work = 2.8123371448878993 kcal/mol
+2022-07-01 07:54:53,398 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:54:53,442 - INFO: 547 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:54:54,256 - INFO: 548 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:56:49,231 - INFO: Insertion work = -2.3686142115124476 kcal/mol
+2022-07-01 07:56:49,265 - INFO: 549 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:56:50,129 - INFO: 550 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 07:58:45,105 - INFO: Insertion work = -0.04841362241473813 kcal/mol
+2022-07-01 07:58:45,112 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 07:58:45,145 - INFO: 551 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:00:39,711 - INFO: Insertion work = 2.9553004609395144 kcal/mol
+2022-07-01 08:00:39,718 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:00:39,745 - INFO: 552 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:02:35,196 - INFO: Insertion work = -2.5582718966198414 kcal/mol
+2022-07-01 08:02:35,230 - INFO: 553 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:02:35,945 - INFO: 554 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:04:30,641 - INFO: Insertion work = -1.1490423103325262 kcal/mol
+2022-07-01 08:04:30,648 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:04:30,676 - INFO: 555 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:06:25,681 - INFO: Insertion work = -0.9087713517205895 kcal/mol
+2022-07-01 08:06:25,693 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:06:25,748 - INFO: 556 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:08:21,096 - INFO: Insertion work = 1.4054708171236985 kcal/mol
+2022-07-01 08:08:21,103 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:08:21,130 - INFO: 557 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:08:22,068 - INFO: 558 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:08:22,632 - INFO: 559 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:08:23,190 - INFO: 560 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:10:18,168 - INFO: Insertion work = 1.1862515491129662 kcal/mol
+2022-07-01 08:10:18,241 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:10:18,297 - INFO: 561 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:10:18,941 - INFO: 562 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:12:14,449 - INFO: Insertion work = 1.7120386286301152 kcal/mol
+2022-07-01 08:12:14,456 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:12:14,485 - INFO: 563 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:12:15,189 - INFO: 564 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:12:15,750 - INFO: 565 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:14:10,403 - INFO: Insertion work = -0.4688992015781495 kcal/mol
+2022-07-01 08:14:10,438 - INFO: 566 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:16:05,695 - INFO: Insertion work = -0.9623662278480819 kcal/mol
+2022-07-01 08:16:05,701 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:16:05,729 - INFO: 567 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:16:06,596 - INFO: 568 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:18:01,817 - INFO: Insertion work = -0.07556314568122305 kcal/mol
+2022-07-01 08:18:01,852 - INFO: 569 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:19:57,377 - INFO: Insertion work = -0.2005209539857549 kcal/mol
+2022-07-01 08:19:57,384 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:19:57,411 - INFO: 570 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:19:58,043 - INFO: 571 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:21:53,328 - INFO: Insertion work = 0.3944543025805434 kcal/mol
+2022-07-01 08:21:53,336 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:21:53,364 - INFO: 572 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:23:48,200 - INFO: Insertion work = -0.7124476824365331 kcal/mol
+2022-07-01 08:23:48,207 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:23:48,235 - INFO: 573 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:23:49,012 - INFO: 574 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:25:44,078 - INFO: Insertion work = -1.3763823001787956 kcal/mol
+2022-07-01 08:25:44,085 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:25:44,114 - INFO: 575 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:25:44,969 - INFO: 576 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:27:39,919 - INFO: Insertion work = 0.8563236163147349 kcal/mol
+2022-07-01 08:27:39,953 - INFO: 577 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:27:40,876 - INFO: 578 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:27:41,434 - INFO: 579 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:27:41,990 - INFO: 580 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:29:37,079 - INFO: Insertion work = -0.5536886552784193 kcal/mol
+2022-07-01 08:29:37,087 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:29:37,114 - INFO: 581 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:31:32,586 - INFO: Insertion work = -0.7312641558428777 kcal/mol
+2022-07-01 08:31:32,593 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:31:32,621 - INFO: 582 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:33:27,713 - INFO: Insertion work = -0.6841367207325911 kcal/mol
+2022-07-01 08:33:27,720 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:33:27,746 - INFO: 583 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:33:28,525 - INFO: 584 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:33:29,084 - INFO: 585 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:33:29,642 - INFO: 586 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:35:24,613 - INFO: Insertion work = 1.5886304568945413 kcal/mol
+2022-07-01 08:35:24,619 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:35:24,646 - INFO: 587 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:35:25,500 - INFO: 588 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:37:20,509 - INFO: Insertion work = -1.0214798201639457 kcal/mol
+2022-07-01 08:37:20,544 - INFO: 589 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:39:15,739 - INFO: Insertion work = 2.040735196224711 kcal/mol
+2022-07-01 08:39:15,746 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:39:15,775 - INFO: 590 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:39:16,402 - INFO: 591 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:41:11,514 - INFO: Insertion work = -1.1478198035446499 kcal/mol
+2022-07-01 08:41:11,521 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:41:11,547 - INFO: 592 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:43:06,447 - INFO: Insertion work = 3.3335858329050443 kcal/mol
+2022-07-01 08:43:06,455 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:43:06,483 - INFO: 593 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:43:07,264 - INFO: 594 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:45:02,012 - INFO: Insertion work = 2.535436346107043 kcal/mol
+2022-07-01 08:45:02,019 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:45:02,047 - INFO: 595 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:46:57,194 - INFO: Insertion work = -2.6954756539388893 kcal/mol
+2022-07-01 08:46:57,229 - INFO: 596 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:48:52,537 - INFO: Insertion work = 3.9347080865195654 kcal/mol
+2022-07-01 08:48:52,545 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:48:52,572 - INFO: 597 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:48:53,189 - INFO: 598 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:50:48,383 - INFO: Insertion work = 0.16891316512517793 kcal/mol
+2022-07-01 08:50:48,391 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:50:48,420 - INFO: 599 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:50:49,121 - INFO: 600 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:50:49,678 - INFO: 601 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:52:44,389 - INFO: Insertion work = -0.13375123958308374 kcal/mol
+2022-07-01 08:52:44,396 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:52:44,423 - INFO: 602 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:54:39,485 - INFO: Insertion work = 8.376026230659004 kcal/mol
+2022-07-01 08:54:39,577 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:54:39,619 - INFO: 603 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:56:34,832 - INFO: Insertion work = 0.31965104856370125 kcal/mol
+2022-07-01 08:56:34,840 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:56:34,867 - INFO: 604 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:56:35,782 - INFO: 605 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:58:30,859 - INFO: Insertion work = 8.741023553954713 kcal/mol
+2022-07-01 08:58:30,867 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 08:58:30,893 - INFO: 606 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 08:58:31,510 - INFO: 607 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:00:26,810 - INFO: Insertion work = 0.6414588941902281 kcal/mol
+2022-07-01 09:00:26,818 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:00:26,846 - INFO: 608 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:02:21,620 - INFO: Insertion work = 7.766297429641527 kcal/mol
+2022-07-01 09:02:21,627 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:02:21,654 - INFO: 609 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:04:16,569 - INFO: Insertion work = 2.1494289993795523 kcal/mol
+2022-07-01 09:04:16,577 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:04:16,604 - INFO: 610 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:06:11,771 - INFO: Insertion work = -0.23253658589645212 kcal/mol
+2022-07-01 09:06:11,779 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:06:11,806 - INFO: 611 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:08:07,223 - INFO: Insertion work = 0.14810171768507624 kcal/mol
+2022-07-01 09:08:07,231 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:08:07,259 - INFO: 612 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:10:02,449 - INFO: Insertion work = -1.327379172499584 kcal/mol
+2022-07-01 09:10:02,457 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:10:02,485 - INFO: 613 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:11:57,052 - INFO: Insertion work = -3.4303872785522103 kcal/mol
+2022-07-01 09:11:57,086 - INFO: 614 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:13:52,047 - INFO: Insertion work = -0.255212554987254 kcal/mol
+2022-07-01 09:13:52,084 - INFO: 615 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:15:47,280 - INFO: Insertion work = -0.01750682073513793 kcal/mol
+2022-07-01 09:15:47,287 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:15:47,316 - INFO: 616 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:17:42,744 - INFO: Insertion work = -2.7480241396272125 kcal/mol
+2022-07-01 09:17:42,780 - INFO: 617 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:17:43,361 - INFO: 618 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:19:38,446 - INFO: Insertion work = 0.9082402083728888 kcal/mol
+2022-07-01 09:19:38,452 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:19:38,479 - INFO: 619 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:21:33,146 - INFO: Insertion work = -0.04249604401733982 kcal/mol
+2022-07-01 09:21:33,154 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:21:33,180 - INFO: 620 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:23:28,217 - INFO: Insertion work = 1.9999249263116297 kcal/mol
+2022-07-01 09:23:28,342 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:23:28,408 - INFO: 621 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:25:23,842 - INFO: Insertion work = 0.6291249949025559 kcal/mol
+2022-07-01 09:25:23,849 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:25:23,879 - INFO: 622 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:25:24,771 - INFO: 623 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:25:25,330 - INFO: 624 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:25:25,891 - INFO: 625 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:27:22,298 - INFO: Insertion work = 0.3879583782065022 kcal/mol
+2022-07-01 09:27:22,306 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:27:22,334 - INFO: 626 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:29:18,381 - INFO: Insertion work = -1.4488216258948758 kcal/mol
+2022-07-01 09:29:18,387 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:29:18,416 - INFO: 627 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:29:19,069 - INFO: 628 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:31:15,200 - INFO: Insertion work = -0.10794562391800802 kcal/mol
+2022-07-01 09:31:15,208 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:31:15,236 - INFO: 629 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:31:15,965 - INFO: 630 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:31:16,522 - INFO: 631 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:33:12,662 - INFO: Insertion work = 2.20943359544823 kcal/mol
+2022-07-01 09:33:12,670 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:33:12,699 - INFO: 632 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:33:13,505 - INFO: 633 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:35:09,942 - INFO: Insertion work = -4.202828161321839 kcal/mol
+2022-07-01 09:35:10,311 - INFO: 634 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:35:11,290 - INFO: 635 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:35:11,851 - INFO: 636 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:35:12,412 - INFO: 637 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:35:12,970 - INFO: 638 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:35:13,530 - INFO: 639 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:35:14,092 - INFO: 640 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:35:14,654 - INFO: 641 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:37:11,325 - INFO: Insertion work = 0.2837621633708562 kcal/mol
+2022-07-01 09:37:11,333 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:37:11,361 - INFO: 642 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:37:11,957 - INFO: 643 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:39:08,481 - INFO: Insertion work = 1.9472460225193289 kcal/mol
+2022-07-01 09:39:08,488 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:39:08,518 - INFO: 644 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:41:04,933 - INFO: Insertion work = 1.066371652105797 kcal/mol
+2022-07-01 09:41:04,940 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:41:04,970 - INFO: 645 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:43:01,480 - INFO: Insertion work = 0.3041686766970628 kcal/mol
+2022-07-01 09:43:01,488 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:43:01,517 - INFO: 646 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:44:58,277 - INFO: Insertion work = -0.09255154266683288 kcal/mol
+2022-07-01 09:44:58,284 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:44:58,313 - INFO: 647 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:44:59,212 - INFO: 648 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:44:59,774 - INFO: 649 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:45:00,333 - INFO: 650 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:45:00,890 - INFO: 651 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:46:57,600 - INFO: Insertion work = 0.7267975223688763 kcal/mol
+2022-07-01 09:46:57,608 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:46:57,637 - INFO: 652 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:48:54,296 - INFO: Insertion work = 0.9098075813614616 kcal/mol
+2022-07-01 09:48:54,303 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:48:54,332 - INFO: 653 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:48:55,005 - INFO: 654 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:48:55,565 - INFO: 655 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:48:56,123 - INFO: 656 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:50:52,342 - INFO: Insertion work = -3.2715690370633927 kcal/mol
+2022-07-01 09:50:52,379 - INFO: 657 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:50:53,132 - INFO: 658 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:50:53,693 - INFO: 659 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:50:54,252 - INFO: 660 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:52:50,726 - INFO: Insertion work = -0.45492273318424703 kcal/mol
+2022-07-01 09:52:50,762 - INFO: 661 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:52:51,609 - INFO: 662 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:54:48,148 - INFO: Insertion work = 1.9667717341817124 kcal/mol
+2022-07-01 09:54:48,156 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:54:48,184 - INFO: 663 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:54:49,092 - INFO: 664 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:54:49,652 - INFO: 665 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:56:46,171 - INFO: Insertion work = 1.0242815590000673 kcal/mol
+2022-07-01 09:56:46,473 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:56:46,563 - INFO: 666 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:58:43,496 - INFO: Insertion work = 4.318329801223821 kcal/mol
+2022-07-01 09:58:43,503 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 09:58:43,531 - INFO: 667 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 09:58:44,227 - INFO: 668 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:00:40,368 - INFO: Insertion work = -0.8665817105487355 kcal/mol
+2022-07-01 10:00:40,436 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:00:40,464 - INFO: 669 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:00:41,256 - INFO: 670 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:00:41,815 - INFO: 671 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:00:42,377 - INFO: 672 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:00:42,939 - INFO: 673 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:02:39,345 - INFO: Insertion work = -0.22042782632874483 kcal/mol
+2022-07-01 10:02:39,352 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:02:39,382 - INFO: 674 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:02:40,221 - INFO: 675 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:02:40,780 - INFO: 676 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:04:37,110 - INFO: Insertion work = 0.5633834804885438 kcal/mol
+2022-07-01 10:04:37,117 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:04:37,146 - INFO: 677 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:04:38,065 - INFO: 678 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:04:38,626 - INFO: 679 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:06:35,192 - INFO: Insertion work = -2.545755384541092 kcal/mol
+2022-07-01 10:06:35,229 - INFO: 680 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:06:35,847 - INFO: 681 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:06:36,405 - INFO: 682 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:06:36,966 - INFO: 683 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:06:37,528 - INFO: 684 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:08:34,207 - INFO: Insertion work = 0.7141567815636563 kcal/mol
+2022-07-01 10:08:34,214 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:08:34,243 - INFO: 685 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:08:34,946 - INFO: 686 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:10:31,305 - INFO: Insertion work = 7.94825798247133 kcal/mol
+2022-07-01 10:10:31,313 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:10:31,342 - INFO: 687 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:12:27,788 - INFO: Insertion work = -1.569172785424649 kcal/mol
+2022-07-01 10:12:27,825 - INFO: 688 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:12:28,679 - INFO: 689 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:12:29,241 - INFO: 690 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:12:29,799 - INFO: 691 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:12:30,360 - INFO: 692 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:14:26,921 - INFO: Insertion work = -1.781372247814926 kcal/mol
+2022-07-01 10:14:26,957 - INFO: 693 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:16:23,936 - INFO: Insertion work = 1.8639726816706752 kcal/mol
+2022-07-01 10:16:23,943 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:16:23,972 - INFO: 694 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:16:24,605 - INFO: 695 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:16:25,169 - INFO: 696 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:18:21,788 - INFO: Insertion work = 1.354419375101132 kcal/mol
+2022-07-01 10:18:21,794 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:18:21,823 - INFO: 697 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:18:22,528 - INFO: 698 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:20:18,765 - INFO: Insertion work = 0.5176631770725362 kcal/mol
+2022-07-01 10:20:18,772 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:20:18,802 - INFO: 699 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:20:19,583 - INFO: 700 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:22:15,870 - INFO: Insertion work = -0.0032224024852524503 kcal/mol
+2022-07-01 10:22:15,878 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:22:15,906 - INFO: 701 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:22:16,769 - INFO: 702 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:24:12,896 - INFO: Insertion work = 0.009374173062480902 kcal/mol
+2022-07-01 10:24:12,931 - INFO: 703 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:24:13,871 - INFO: 704 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:26:10,611 - INFO: Insertion work = -1.6438522295208085 kcal/mol
+2022-07-01 10:26:10,735 - INFO: 705 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:26:11,470 - INFO: 706 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:26:12,029 - INFO: 707 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:28:08,719 - INFO: Insertion work = -0.10383769354060246 kcal/mol
+2022-07-01 10:28:08,727 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:28:08,778 - INFO: 708 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:28:09,496 - INFO: 709 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:30:05,757 - INFO: Insertion work = 0.5669628111262655 kcal/mol
+2022-07-01 10:30:06,212 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:30:06,323 - INFO: 710 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:30:07,265 - INFO: 711 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:32:03,684 - INFO: Insertion work = 2.4567730638000933 kcal/mol
+2022-07-01 10:32:03,691 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:32:03,720 - INFO: 712 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:32:04,583 - INFO: 713 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:32:05,140 - INFO: 714 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:32:05,698 - INFO: 715 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:34:02,104 - INFO: Insertion work = -1.01112280840973 kcal/mol
+2022-07-01 10:34:02,141 - INFO: 716 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:34:03,188 - INFO: 717 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:34:03,745 - INFO: 718 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:34:04,305 - INFO: 719 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:34:04,867 - INFO: 720 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:34:05,427 - INFO: 721 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:36:01,975 - INFO: Insertion work = -1.8385960564665453 kcal/mol
+2022-07-01 10:36:02,010 - INFO: 722 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:37:58,222 - INFO: Insertion work = -1.7986854247394493 kcal/mol
+2022-07-01 10:37:58,258 - INFO: 723 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:37:58,984 - INFO: 724 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:39:55,230 - INFO: Insertion work = 1.6735181553324203 kcal/mol
+2022-07-01 10:39:55,239 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:39:55,270 - INFO: 725 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:39:56,073 - INFO: 726 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:41:53,077 - INFO: Insertion work = 0.17897582246324134 kcal/mol
+2022-07-01 10:41:53,085 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:41:53,111 - INFO: 727 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:43:47,080 - INFO: Insertion work = -0.43704216089143716 kcal/mol
+2022-07-01 10:44:08,883 - INFO: Move rejected due to molecule leaving the GCMC sphere
+2022-07-01 10:44:09,910 - INFO: 728 move(s) completed (0 accepted (0.0000 %)). Current N = 0. Average N = 0.000
+2022-07-01 10:46:04,901 - INFO: Insertion work = -2.553254954452782 kcal/mol

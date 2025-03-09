@@ -10,3 +10,12 @@ o-xylene;CC1=CC=CC=C1C
 Phenol;C1=CC=C(C=C1)O
 Propylbenzene;CCCC1=CC=CC=C1
 Thianaphthene;c1ccc2sccc2c1
+Isobutylbenzene;CC(C)CC1=CC=CC=C1
+n-Butylbenzene;CCCCC1=CC=CC=C1
+p-Xylene;CC1=CC=C(C=C1)C
+2-Fluorobenzaldehyde;C1=CC=C(C(=C1)C=O)F
+"1,2-Dichlorobenzene";C1=CC=C(C(=C1)Cl)Cl
+n-Methylaniline;CNC1=CC=CC=C1
+1-Methylpyrrole;CN1C=CC=C1
+"1,2-Benzenedithiol";C1=CC=C(C(=C1)S)S
+"Thieno[2,3-c]pyridine";C1=CN=CC2=C1C=CS2

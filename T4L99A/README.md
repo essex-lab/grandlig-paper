@@ -1,4 +1,16 @@
 
+# T4L99A GCNCMC Simulations
+
+In this folder, you should find everything rqeuired to run host guest GCNCMC simulations.
+
+## Files and Folders
+- `Ligand_pdbs_xmls/`: Folder containing all ligand 3D coordinates (.pdb) and GAFF/AM1BCC forcefield parameters (.xml)
+- `BindingSite/`: A starting place for mixed solvent MD simulations
+- `BindingMode/`: A starting place for investigating Toluene/T4 binding modes
+
+- `Titrations/`: A starting place to run GCNCMC Host Guest titrations.
+- `Titrations/T4_B_values.csv`: A file containing the simulated B values for each ligand
+
 # Running these scripts:
 
 ### T4L99A Binding site:
@@ -38,19 +50,20 @@ done
 
 ### T4L99A Binding mode:
 ```
-cd T4L99A/BindingSite
+cd T4L99A/BindingModes
 mkdir repeat_1
 cd repeat_1
-python ../Benzene_Binding_site.py -p ../T4L99A_equiled.pdb -l ../Benzene.pdb -x ../Benzene.xml -r L02 -c 0.5
+python ../Toulene_BM_simulations.py
 ```
 
 ### Titration Calculations
-The folder structure is already setup with a python file to run in each folder. To run a titration for e.g. Benzene
+As an example using `Benzofuran` at a B value of `-9.58`:
 
 ```
-cd Titration/Benzene/repeat_1
+mkdir -p Titrations/Benzofuran/repeat_1/-9.58/
+cd Titrations/Benzofuran/repeat_1/-9.58/
+
+python ../../../../../GCNCMC_Simulation_Scripts/basic_NCMC_sim_B.py --pdb ../../../../Native_APO.pdb --lig ../../../../Ligand_pdbs_xmls/Benzofuran_H.pdb --lxml ../../../../Ligand_pdbs_xmls/Benzofuran_H.xml --B -9.58 --st 150 --sph_resns LEU ALA --sph_resis 85 100 --rad 8 --hmr --nmoves 1500 --mdpermove 500
 ```
 
-You will then need to `cd` into each directory corresponding to an individual B value and run the simulation. You will need a full set of simulations at multiple B values to plot a titration curve. 
-
-
+To run a full titration calculation you will need to perform simulations at multiple B values.

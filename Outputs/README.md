@@ -1,5 +1,10 @@
-# Titrations
+# Outputs
 
+In this folder you will find a set of output files required to recreate the results and plots in the paper. This can also serve as a guide of how to analyse these simulations. 
+
+Within each folder is a new README with instructions.
+
+<!-- 
 To plot titration curves:
 
 ```
@@ -11,4 +16,4 @@ This script will also output a `.pkl` file for easier plotting the second time:
 ```
 python ../../../Analysis_Scripts/Plot_Curves_From_File.py -pkl titration_plot_data.pkl -pro beta_cd -o TEST
 ```
-
+ -->

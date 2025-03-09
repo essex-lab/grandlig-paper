@@ -2,13 +2,13 @@
 
 This repository contains the data and scripts necessary to reproduce the results presented in our manuscript, _"Accelerating Fragment Baed Drug Discovery using Grand Canonical Nonequilibrium Candidate Monte Carlo"_, by W. G. Poole, M. L. Samways, D. Branduardi, R. D. Taylor, M. L. Verdonk, and J. W. Essex (2024).
 
-There are separate directories for the bulk concentrations simulations as well as the three test systems: beta-cyclodextrin, T4L99A, and MUP1 with the scripts and input files required to run the GCNCMC/MD simulations. Where the necessary scripts to reproduce the published data can be found. The required analysis can also be found in each sub-directory. More information on how to perform the simulations and analysis can be found within each directory. The _grandlig_ module required to run these simulations can be downloaded [here](https://github.com/essex-lab/grand-lig'). Installation instructions are provided on the main repo.
+There are separate directories for the bulk concentrations simulations as well as the three test systems: beta-cyclodextrin, T4L99A, and MUP1 with the scripts and input files required to run the GCNCMC/MD simulations. The required analysis can also be found in each sub-directory. More information on how to perform the simulations and analysis can be found within each directory. The _grandlig_ module required to run these simulations can be downloaded [here](https://github.com/essex-lab/grand-lig'). Installation instructions are provided on the main repo.
 
-If you encounter any problems with these scripts, please open an issue or contact the authors.
+If you encounter any problems with these scripts (no matter how small or large), please open an issue and it will get fixed ASAP.
 
 # Overview
 ## Summary
-We have providied to avenues to reproduce the results of the paper. The simpler approach is to use the scripts in `Basic_Simulation` with different arguments to recreate the results. This will require the user to set up their own folder structures etc etc.
+We have provided two avenues to reproduce the results of the paper. The simpler approach is to use the scripts in `Basic_Simulation` with different arguments to recreate the results. This will require the user to set up their own folder structures etc etc.
 
 The second approach can be to navigate through the directories `HostGuest`, `T4L99A`, `MUP1` where there are set up folder structures with individual python scripts / information in each which can be run to generate results. A lot of simulations have been performed for this paper and therefore regenerating these results is no small task and will require the use of HPCs. 
 
