@@ -1,5 +1,5 @@
 """
-Script containing all functions useful for the analysis of GCNCMC simulations
+Script containing all functions useful for the analysis of GCNCMC simulations / titrations
 - Will Poole
 """
 
@@ -136,15 +136,19 @@ def fit_curve(Bs, occ):
 def calc_fes_from_params(params, mu_ex, mu_err, rad):
     mean_B50 = np.mean(params, axis=0)[0]
     sem_B50 = np.std(params, axis=0)[0] / np.sqrt(len(params))
+    # print(f"Params shape: {params.shape}")
+    # print(params)
+    # print(params[:, 0])
 
     dF_trans = (mean_B50 / beta).in_units_of(kilocalories_per_mole)
     dF_trans_err = (sem_B50 / beta).in_units_of(kilocalories_per_mole)
 
     kd = calc_c_from_B(mean_B50, mu_ex, rad)
-    dG = kT * np.log(kd)
-    dG_err = dG_err = np.sqrt(dF_trans_err._value**2 + mu_err**2)
+    mean_dG = kT * np.log(kd)
+    dG_err = np.sqrt(dF_trans_err._value**2 + mu_err**2)
+    dG_repeats = kT * np.log(calc_c_from_B(params[:, 0], mu_ex, rad))
 
-    return mean_B50, sem_B50, dF_trans, dF_trans_err, kd, dG, dG_err 
+    return mean_B50, sem_B50, dF_trans, dF_trans_err, kd, mean_dG, dG_err, dG_repeats
 
 
 def generate_bootstrap_data(n, occupancies, Bs):

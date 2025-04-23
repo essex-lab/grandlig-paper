@@ -85,7 +85,6 @@ wd = os.getcwd()
 print(wd)
 
 df = pd.read_csv(args.df, delimiter=args.delim)
-print("HELLO")
 
 mu_exs = []
 mu_ex_errs = []

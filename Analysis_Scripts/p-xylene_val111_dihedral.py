@@ -1,3 +1,7 @@
+"""
+Simple script to calculates the dihedral angle of the Val111 residue in the p-xylene / T4L99A system.
+"""
+
 import MDAnalysis as mda
 from MDAnalysis.analysis import dihedrals
 from matplotlib import pyplot as plt

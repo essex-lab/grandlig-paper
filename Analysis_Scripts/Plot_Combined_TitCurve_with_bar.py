@@ -1,15 +1,15 @@
+"""
+Script which reads in data from titration analysis (.npy) and plots the dtitration curves for multiple ligands aswell as a bar plot detailing the calculated free energy.
+"""
+
 # Modules to import
 import argparse
-import os
-
-import scipy.stats
 from simtk.unit import *
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 from glob import glob
 from scipy.optimize import curve_fit
-import pickle
 import pandas as pd
 
 
@@ -55,11 +55,10 @@ def calc_VGCMC(radius):
 
 # Arguments to be input
 parser = argparse.ArgumentParser()
-parser.add_argument("-mu", "--mu_file", help="Input the pickle file", type=str)
-parser.add_argument("-fe", '--fe_data', help='Input protein name', type=str)
-parser.add_argument("-rad", '--sphere_rad', help='Input protein name', type=float)
-parser.add_argument("-pro", '--pro', help='Input output name', type=str)
-
+parser.add_argument("-mu", "--mu_file", help="Input Mu ex file", type=str)
+parser.add_argument("-fe", '--fe_data', help='Input Free Energy Data', type=str)
+parser.add_argument("-rad", '--sphere_rad', help='Input GCMC Sphere radius', type=float)
+parser.add_argument("-pro", '--pro', help='Input protein name', type=str)
 parser.add_argument("-out", '--out', help='Input output name', type=str)
 
 
@@ -70,6 +69,7 @@ args = parser.parse_args()
 
 rad = args.sphere_rad * angstrom
 
+# Reads in the file containing ligand names and the excess chemical potential.
 try:
     mu_df = pd.read_csv(
         args.mu_file,
@@ -83,17 +83,18 @@ except:
     )
 
 
-frags = mu_df["Name"].to_list()
+frags = mu_df["Name"].to_list()  # Gets the names of the fraagments
 
-fe_data = pd.read_csv(args.fe_data, delim_whitespace=True, header=None, names=["FE", "FE_err", "Name"], converters={"Name": str})
+fe_data = pd.read_csv(args.fe_data, delim_whitespace=True, header=None, names=["FE", "FE_err", "Name"], converters={"Name": str})  # Get the final averaged free energy estimates from a file
 
-merged = pd.merge(mu_df, fe_data, on=["Name"])
+merged = pd.merge(mu_df, fe_data, on=["Name"]) # Merge the two dataframes on the name column
 
-merged.sort_values(by="FE", ascending=True, inplace=True)
+merged.sort_values(by="FE", ascending=True, inplace=True)  # Sort the dataframe by the free energy estimates
 
 sorted_frags = merged["Name"]
 all_dgs = merged["FE"].values
 all_sems = merged["FE_err"].values
+all_dGs_repeats = []
 
 sorted_dGs = all_dgs
 
@@ -121,6 +122,8 @@ for h, frag in enumerate(sorted_frags):
     B_fit = np.linspace(min(Bs)-10, max(Bs)+10, 300)
     mean_params = _[1]
     sem_params = _[2]
+    dg_repeats = _[3]
+    all_dGs_repeats.append(dg_repeats)
 
 
     N_fit_mean = sigmoid(B_fit, *mean_params)
@@ -135,12 +138,13 @@ for h, frag in enumerate(sorted_frags):
        ls_index += 1
        linestyle = linestyles[ls_index]
 
-axes["A"].set_xlim(10**-13, 10**-3)
+print(all_dGs_repeats)
+axes["A"].set_xlim(10**-6, 10**1)
 axes["A"].set_xscale("log")
 axes["A"].axhline(0.5, c='k')
 handles, labels = axes["A"].get_legend_handles_labels()
 # dGs = [float(label.split()[1]) for label in labels]
-all_dgs, handles, labels = zip(*sorted(zip(all_dgs, handles, labels), key=lambda t: t[0]))
+all_dgs, handles, labels, all_dGs_repeats = zip(*sorted(zip(all_dgs, handles, labels, all_dGs_repeats), key=lambda t: t[0]))
 # dGs, labels = zip(*sorted(zip(dGs, labels)))
 
 # plt.legend(handles, labels, loc='upper left', ncol=1, fancybox=True, shadow=True)
@@ -151,6 +155,11 @@ all_dgsstd_values = all_sems
 
 
 axes["B"].bar(labels, all_dgs_value, yerr=all_dgsstd_values, color=colors, edgecolor='black', width=0.6, capsize=5)
+
+for i, (label, dg_repeats) in enumerate(zip(labels, all_dGs_repeats)):
+    x_positions = np.full(len(dg_repeats), i)  # Create x positions for the dots
+    axes["B"].scatter(x_positions, dg_repeats, color='black', zorder=5)  # Plot the dots
+
 
 box = axes["B"].get_position()
 axes["B"].set_position([box.x0, box.y0 + (box.height - (box.height*0.7)), box.width, box.height*0.7])
@@ -172,7 +181,6 @@ axes["A"].minorticks_off()
 
 # fig.suptitle(r'{} Titrations'.format(args.pro))
 plt.savefig(f"{args.out}.pdf", format='pdf', bbox_inches='tight')
-plt.savefig(f"{args.out}.png", bbox_inches='tight')
-plt.savefig(f"/home/will/scripts_for_paper/{args.out}.pdf", format='pdf', bbox_inches='tight')
+# plt.savefig(f"{args.out}.png", bbox_inches='tight')
 
 plt.show()

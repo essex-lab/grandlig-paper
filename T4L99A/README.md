@@ -8,7 +8,7 @@ In this folder, you should find everything rqeuired to run host guest GCNCMC sim
 - `BindingSite/`: A starting place for mixed solvent MD simulations
 - `BindingMode/`: A starting place for investigating Toluene/T4 binding modes
 
-- `Titrations/`: A starting place to run GCNCMC Host Guest titrations.
+- `Titrations/`: A starting place to run GCNCMC T4L99A titrations.
 - `Titrations/T4_B_values.csv`: A file containing the simulated B values for each ligand
 
 # Running these scripts:

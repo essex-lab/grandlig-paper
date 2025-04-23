@@ -17,11 +17,6 @@ from tqdm import tqdm
 import mdtraj
 from numba import jit, cuda
 from simtk import unit
-#
-#
-# bohr_base_unit = unit.BaseUnit(unit.length_dimension, "bohr", "r_b")
-# bohr_base_unit.define_conversion_factor_to(unit.angstrom_base_unit, 0.529177)
-# bohrs = bohr = unit.Unit({bohr_base_unit: 1.0})
 
 #@staticmethod@
 @jit(target_backend="cuda")

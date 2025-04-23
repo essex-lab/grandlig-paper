@@ -1,3 +1,8 @@
+"""
+Main script to take in occupancy data from a GCNCMC simulation and plot a titration curve. This script is intened to be used for multiple ligands with an indivdiual
+ titration curve for each ligand plotted. Curves are plotted on the B and concentration scale. A third curve is plotted after boootstrapping the data between repeats.
+A numpy array with the Adams values, mean fitted curve parameters, error in curve parameters and the free enegry data for each repeat is written out to a .npy file for future processing and plotting.
+"""
 # Modules to import
 import argparse
 import os
@@ -128,7 +133,8 @@ for i, lig in enumerate(ligands):
         )
 
     # Now data extracted, calculate the free energies
-    mean_B50, sem_B50, dF_trans, dF_trans_err, kd, dG, dG_err = functions.calc_fes_from_params(params_repeats, mu_ex, mu_err, rad)
+    params_repeats = np.asarray(params_repeats)
+    mean_B50, sem_B50, dF_trans, dF_trans_err, kd, dG, dG_err, dG_repeats = functions.calc_fes_from_params(params_repeats, mu_ex, mu_err, rad)
     fe_data = (mean_B50, sem_B50, dF_trans, dF_trans_err, kd, dG, dG_err)
 
     Bs = np.asarray(df["B"])  # Get all the B values for all 
@@ -138,7 +144,7 @@ for i, lig in enumerate(ligands):
     mean_params = np.mean(params_repeats, axis=0)
     sem_params = np.std(params_repeats, axis=0) / np.sqrt(len(params_repeats))
 
-    params_to_save = [Bs, mean_params, sem_params]
+    params_to_save = [Bs, mean_params, sem_params, dG_repeats]
     np.save(f"{lig}_mean_plot.npy", params_to_save)
 
     if i == 0 :
@@ -173,8 +179,9 @@ for i, lig in enumerate(ligands):
     data = np.asarray(data)
     bootoccs = functions.generate_bootstrap_data(nboot, data[:, 1, :].T, Bs)
 
-    booted_params_repeats = [fit_curve(Bs, bootoccs[:, j]) for j in range(nboot)]
-    mean_B50, sem_B50, dF_trans, dF_trans_err, kd, dG, dG_err = (
+    booted_params_repeats = np.asarray([fit_curve(Bs, bootoccs[:, j]) for j in range(nboot)])
+    
+    mean_B50, sem_B50, dF_trans, dF_trans_err, kd, dG, dG_err, dG_repeats = (
         functions.calc_fes_from_params(booted_params_repeats, mu_ex, mu_err, rad)
     )
     fe_data = (mean_B50, sem_B50, dF_trans, dF_trans_err, kd, dG, dG_err)

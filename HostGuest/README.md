@@ -9,7 +9,7 @@ In this folder, you should find everything rqeuired to run host guest GCNCMC sim
 - `bCD_FINAL.xml`: Parameters for the beta-cyclodextrin host
 - `bCD_Equiled.pdb`: Equilibrated coordinates for the bCD host
 
-## Usage
+## GCNCMC
 To run a single simulation for a particular ligand at a given B value you can run:
 
 ```
@@ -30,3 +30,25 @@ python ../../../../../GCNCMC_Simulation_Scripts/basic_NCMC_sim_B_HG.py --pdb ../
 To run a full titration calculation you will need to perform simulations at multiple B values.
 
 For analysis, see the `Outputs/HostGuest` folder.
+
+## FEP
+Privided are representative frames from GCNCMC simulations of both the primary and secondary poses of each HG pair - these are the starting structures for FEP simulations. 
+
+To perform a FE calculation (example):
+
+```
+cd FEP/1-methylcyclohexanol/Complex_Prim
+mkdir repeat_1; cd repeat_1
+
+for i in $(seq 0 40); do mkdir $i; cd $i; python HostGuestComplex_free_energy.py -p ../../Primary.pdb -x ../../*.xml -r L02 848 -lam $i; cd ..; done
+
+```
+
+Each lambda value is run indivdually with a numpy array written out - `U_matrix_i.npy` of shape `(40, 40, 1000)`. This data can be combined to give the full matrix for each repeat:
+
+```
+cd FEP/1-methylcyclohexanol/Complex_Prim/repeat_1
+python Free_Energy_Scripts/Combine_FE_numpy_arrays.py -u */*.npy
+```
+
+Analysis can then be performed on this combined matrix. See `Outputs/HostGuest/FEP` for examples.

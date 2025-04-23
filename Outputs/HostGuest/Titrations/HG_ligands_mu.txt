@@ -1,4 +1,4 @@
-Mu_Ex,Err,Name,    SMILES
+Mu_Ex,Mu_Ex_err,Name,    SMILES
 -2.32,0.00,thianaphthene,	s1ccc2ccccc12
 -5.13,0.00,p-cresol,	Cc1ccc(O)cc1
 -3.22,0.00,acetaldehyde,	CC=O

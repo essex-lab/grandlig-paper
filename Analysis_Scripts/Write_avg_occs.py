@@ -1,13 +1,8 @@
 # Modules to import
 import argparse
-import os
-
-import scipy.stats
 from simtk.unit import *
 import numpy as np
-import matplotlib.pyplot as plt
 from glob import glob
-from scipy.optimize import curve_fit
 
 
 # Arguments to be input
@@ -36,6 +31,7 @@ log_name = args.name
 unique_Bs = []
 for repeat in repeats:
     folders = glob(f'{repeat}/*.*/')
+    print(folders)
     for f in folders:
         b = float(f.split('/')[-2])
         if b not in unique_Bs:

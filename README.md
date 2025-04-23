@@ -8,11 +8,9 @@ If you encounter any problems with these scripts (no matter how small or large),
 
 # Overview
 ## Summary
-We have provided two avenues to reproduce the results of the paper. The simpler approach is to use the scripts in `Basic_Simulation` with different arguments to recreate the results. This will require the user to set up their own folder structures etc etc.
+The simplest approach to reproduce the results of the paper is to use the scripts in `Basic_Simulation` with different arguments to recreate the results. This will require the user to set up their own folder structures etc. A lot of simulations have been performed for this paper and therefore regenerating these results is no small task and will require the use of HPCs. 
 
-The second approach can be to navigate through the directories `HostGuest`, `T4L99A`, `MUP1` where there are set up folder structures with individual python scripts / information in each which can be run to generate results. A lot of simulations have been performed for this paper and therefore regenerating these results is no small task and will require the use of HPCs. 
-
-Finally, while best efforts have been taken to ensure everything in this repo runs and works as expected, there are clearly many scripts and input files provided. If you run into any issues please open an issue and we will amend them ASAP. 
+While best efforts have been taken to ensure everything in this repo runs and works as expected, there are clearly many scripts and input files provided. If you run into any issues please open an issue and we will amend them ASAP. 
 
 ## Manifest
 ### Concentration
