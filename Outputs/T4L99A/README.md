@@ -30,3 +30,12 @@ for l in *; do cd $l/Apo/150ps; python Write_avg_occs.py -f repeat_? -fn gcncmc.
 python ../../../Analysis_Scripts/Plot_Titration_curves_B_C_and_Boot.py -r 8 -n 1000 --mu_file ../Mu_ex.txt
 ```
 
+For convergance analysis:
+```
+cd Titrations/raw_log_files
+for l in *; do python ../../../../Analysis_Scripts/Write_avg_occs_function_nmoves.py -f $l/Apo/150ps/repeat_? -fn gcncmc.log -frag $l; done
+mv *.pkl ../Convergance_plots/
+cd ../Convergance_plots
+python ../../../../Analysis_Scripts/plot_tit_curves_with_convergance.py --mu_file ../../Mu_ex.txt
+```
+

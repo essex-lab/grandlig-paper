@@ -135,4 +135,4 @@ def make_fe_trace(U_klns, title, kT, lambdas, out):
         out, bbox_inches="tight", pad_inches=0.1
     )
     # plt.show()
-    return free_energy_trace_f, data_f, fig
+    return data_f, data_r, fig

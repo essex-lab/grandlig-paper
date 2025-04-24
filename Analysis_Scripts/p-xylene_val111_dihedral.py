@@ -39,10 +39,12 @@ plt.title("p-xylene / T4L99A - Val111 Dihedral Angle")
 plt.savefig(f"{args.out}.pdf", bbox_inches='tight')
 
 plt.clf()
-plt.hist(dihs.angles.T[0], density=True)
+count, bins, _ = plt.hist(dihs.angles.T[0], density=True)
 plt.ylabel('Density')
 plt.xlabel('Angle (degrees)')
 plt.title("p-xylene / T4L99A - Val111 Dihedral Angle")
 plt.savefig(f"{args.out}_hist.pdf", bbox_inches='tight')
+for i in range(len(count)):
+    print(f"{bins[i]},{count[i]}")
 
 #plt.show()

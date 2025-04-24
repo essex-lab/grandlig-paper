@@ -8,7 +8,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from glob import glob
 from scipy.optimize import curve_fit
-
+import pickle
+import re
 
 # Arguments to be input
 parser = argparse.ArgumentParser()
@@ -28,9 +29,10 @@ def get_avgN(file):
     with open(file, 'r') as fi:
         for line in fi.readlines():
             if 'completed' in line:
-
-                avg_N = float(line.split()[-9].strip('.'))
-                #avg_N = float(line.split()[-1])
+                try:
+                    avg_N = float(line.split()[-9].strip('.'))
+                except ValueError:
+                    avg_N = float(line.split()[-1])
                 avgN_nmoves.append(avg_N)
 
     return avgN_nmoves
@@ -40,10 +42,10 @@ repeats = args.folders
 n_repeats = len(repeats)
 log_name = args.name
 
-# Get all the B values simulated for a particular ligand. N.B these dont have to be simulated in every repeat
 unique_Bs = []
 for repeat in repeats:
-    folders = glob(f'{repeat}/*.*/')
+    lig_name_glob = re.sub("([\[\]])", "[\\1]", repeat)
+    folders = glob(f'{lig_name_glob}/*.*/')
     for f in folders:
         b = float(f.split('/')[-2])
         if b not in unique_Bs:
@@ -59,7 +61,7 @@ Bs.sort()
 print(Bs)
 
 # Save the B values as a .npy file
-np.save(f"{args.frag}_B_values.npy", Bs)
+#np.save(f"{args.frag}_B_values.npy", Bs)
 
 
 avg_N_mols = np.zeros((n_repeats, len(B_ids)))  # Dict of B values and the current N waters at each frame
@@ -73,6 +75,7 @@ for repeat in repeats:
             if len(avg_N) > max_moves:
                 max_moves = len(avg_N)
         except FileNotFoundError:
+            print(f"Not found file: {repeat}/{B}/{log_name}")
             continue
 
 # Initialize the array to store the data
@@ -90,6 +93,9 @@ for repeat_id, repeat in enumerate(repeats):
             print(f"Not found file: {repeat}/{B}/{log_name}")
             continue
 
-# Save the full_data array as a .npy file
-print(full_data)
-np.save(f'{args.frag}_full_data.npy', full_data)
+# Add the B values as an additional column to the full_data array
+full_data_with_Bs = [Bs, full_data]
+# Save the full_data_with_Bs array as a .pkl file
+with open(f'{args.frag}_full_data.pkl', 'wb') as pkl_file:
+    pickle.dump(full_data_with_Bs, pkl_file)
+#np.save(f'{args.frag}_full_data.npy', full_data)

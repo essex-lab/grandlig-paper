@@ -103,7 +103,7 @@ ncmc_mover = grand.samplers.NonequilibriumGCMCSphereSampler(
     log="T4NCMC.log",
     dcd="T4NCMCholo_raw.dcd",
     overwrite=True,
-    maxN=1,  # NOTE: Setting maxN=1 is not recommended. It will instantly reject any attempted insertion move in order to save time. Only use when certain your site fits one ligand
+    maxN=1,  # NOTE: Setting maxN=1 will instantly reject any attempted insertion move in order to save time. Only use when certain your site fits one ligand
 )
 
 # Get platform

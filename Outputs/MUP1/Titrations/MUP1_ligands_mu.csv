@@ -1,4 +1,4 @@
-SMILES  Mu_Ex   Err Name    ID
+SMILES  Mu_Ex   Mu_Ex_err LIG_Name    Name
 CC[C@H](C)c1nccs1	-1.73	0.04	S-SEC-BUTYL-THIAZOLE		01
 CC[C@@H](C)c1nccs1	-1.76	0.02	R-SEC-BUTYL-THIAZOLINE		02
 CC(C)Cc1nccs1		-1.73	0.03	ISO-BUTYL-THIAZOLE  		03

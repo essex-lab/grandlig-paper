@@ -112,6 +112,7 @@ linestyles = ["-", '--', ':']
 ls_index = 0
 linestyle = linestyles[ls_index]
 c_index = 0
+fitted_data = pd.DataFrame()
 for h, frag in enumerate(sorted_frags):
     lig_df = merged[merged['Name'] == frag]
     mu = lig_df["Mu_Ex"].values[0] * kilocalories_per_mole
@@ -124,9 +125,11 @@ for h, frag in enumerate(sorted_frags):
     sem_params = _[2]
     dg_repeats = _[3]
     all_dGs_repeats.append(dg_repeats)
-
-
     N_fit_mean = sigmoid(B_fit, *mean_params)
+
+    fitted_data[f"Bs_{frag}"] = B_fit
+    fitted_data[f"Mean_fit_{frag}"] = N_fit_mean
+
     C_fit = calc_c_from_B(B_fit, mu, rad)
     x = [np.log10(i) for i in C_fit]
     x = C_fit
@@ -139,6 +142,7 @@ for h, frag in enumerate(sorted_frags):
        linestyle = linestyles[ls_index]
 
 print(all_dGs_repeats)
+fitted_data.to_csv(f"{args.out}_fitted_data.csv", index=False)
 axes["A"].set_xlim(10**-6, 10**1)
 axes["A"].set_xscale("log")
 axes["A"].axhline(0.5, c='k')

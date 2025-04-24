@@ -47,9 +47,9 @@ def get_acc(file):
         acc_rate = final_line[9].strip('(')
     return float(acc_rate)
 
-B50s = pd.read_csv(args.B50s, sep="\t", converters={"Ligand": str})
-smis = pd.read_csv(args.smis, delim_whitespace=True, converters={"Ligand": str})
-# smis.rename(columns={"Name": "Ligand"}, inplace=True)
+B50s = pd.read_csv(args.B50s, sep="\t", converters={"Ligand": str, "Name": str})
+smis = pd.read_csv(args.smis, delim_whitespace=True, converters={"Ligand": str, "Name": str})
+smis.rename(columns={"Name": "Ligand", "SMILES": "Smiles"}, inplace=True)
 # Merge on name columsn
 df = B50s.merge(smis, on="Ligand")
 df = df[["Ligand", "B50", "Smiles"]]
@@ -77,7 +77,7 @@ for i in range(len(ligands)):
     for repeat in [1, 2, 3, 4]:
         closest_file, closest_b = None, None
         # base_paths = [
-        #     f"//media/will/c819bbb5-f7a0-4c74-afa8-b658cd781f45/Grand/T4L99A/Titrations/{lig_name_glob}/Apo/150ps/repeat_{repeat}/*.*/T4L99A.log",
+        #     f"/home/will/data_2/Grand/T4L99A/Titrations/{lig_name_glob}/Apo/150ps/repeat_{repeat}/*.*/T4L99A.log",
         #     f"/home/will/data_5/Grand/T4L99A/Titrations_newligands/{lig_name_glob}/Apo/150ps/repeat_{repeat}/*.*/gcncmc.log",
         #     f"/home/will/data_6/Grand/T4L99A/Titrations_newligands/{lig_name_glob}/Apo/150ps/repeat_{repeat}/*.*/gcncmc.log",
         # ]
@@ -155,6 +155,9 @@ axes[0].errorbar(
     label="Mean Acc Rate",
 )
 
+df = pd.DataFrame({'HACs': hacs, 'Mean Acc Rate': mean_acc_per_ligand_hac})
+df.to_csv("MUP1_HACs_vs_mean_acc_rate.csv", index=False)
+
 axes[0].set_xlabel("Heavy Atom Count (HAC)", fontsize=14, fontweight="bold")
 axes[0].set_ylabel("Mean Acceptance Rate", fontsize=14, fontweight="bold")
 axes[0].set_title(
@@ -172,6 +175,9 @@ axes[1].bar(
     edgecolor="black",
     alpha=0.8,
 )
+
+df = pd.DataFrame({'Ligand': ligands_hac, 'Mean Acc Rate': mean_acc_per_ligand_hac})
+df.to_csv("MUP1_ligands_vs_mean_acc_rate.csv", index=False)
 
 # Plot raw data for each repeat as black dots
 for i, raw_acc in enumerate(raw_acc_per_ligand_hac):

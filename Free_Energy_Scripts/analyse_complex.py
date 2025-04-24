@@ -66,14 +66,20 @@ def calc_mu_ex(id, n_repeats=3):
         dg_repeats.append(dg._value * -1)
         os.chdir(WORK_DIR)
 
-    _, _, _ = make_fe_trace(
+    conv_f, conv_r, _ = make_fe_trace(
         u_kln_list, f"{ligand} Complex Decoupling", kT_kcal, lambdas, f"{ligand}/{ligand}_complex_convergence.pdf"
     )
+    df_conv = pd.DataFrame()
+    df_conv[f"{ligand}_forward"] = conv_f[:, 0]
+    df_conv[f"{ligand}_reverse"] = conv_r[:, 0]
+    df_conv[f"{ligand}_forward_err"] = conv_f[:, 1]
+    df_conv[f"{ligand}_reverse_err"] = conv_r[:, 1]
+
     plt.clf()
     mean_dg = np.mean(dg_repeats)
     std_error = np.std(dg_repeats) / np.sqrt(len(dg_repeats))
     print(f"{ligand}: {mean_dg:.3f} +/- {std_error:.3f}")
-    return mean_dg, std_error
+    return mean_dg, std_error, df_conv
 
 
 parser = argparse.ArgumentParser()
@@ -91,19 +97,22 @@ df = pd.read_csv(args.df, delimiter=args.delim)
 
 mu_exs = []
 mu_ex_errs = []
+conv_dfs = []
 for i in range(len(df)):
     x = df.iloc[i]
     id = str(x[args.name])
     print(id)
     try:
-        mu, err = calc_mu_ex(id)
+        mu, err, conv_df = calc_mu_ex(id)
     except FileNotFoundError:
         mu, err = np.nan, np.nan
     mu_exs.append(mu)
     mu_ex_errs.append(err)
+    conv_dfs.append(conv_df)
 
 df["Complex"] = mu_exs
 df["Complex_err"] = mu_ex_errs
 
 df.to_csv("ComplexFEs.txt", index=False)
-
+conv_df = pd.concat(conv_dfs, axis=1)
+conv_df.to_csv("Complex_convergence.txt", index=False)
