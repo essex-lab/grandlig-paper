@@ -8,7 +8,7 @@ If you encounter any problems with these scripts (no matter how small or large),
 
 # Overview
 ## Summary
-The simplest approach to reproduce the results of the paper is to use the scripts in `Basic_Simulation` with different arguments to recreate the results. This will require the user to set up their own folder structures etc. A lot of simulations have been performed for this paper and therefore regenerating these results is no small task and will require the use of HPCs. 
+The simplest approach to reproduce the results of the paper is to use the scripts in `GCNCMC_Simulation_Scripts` with different arguments to recreate the results. This will require the user to set up their own folder structures. A lot of simulations have been performed for this paper and therefore regenerating these results is no small task and will require the use of HPCs. 
 
 While best efforts have been taken to ensure everything in this repo runs and works as expected, there are clearly many scripts and input files provided. If you run into any issues please open an issue and we will amend them ASAP. 
 
@@ -34,7 +34,7 @@ Scripts and input files to reproduce results in the paper regarding the MUP1 sys
 ### Basic_Simulation
 Basic scripts which can be used to run sphere based GCNCMC simulations. These scripts use `argparse` to allow the used to provide all the relevent information to run a simulation. While input files and run scripts are provided in the above sections, these scripts can also be used to reproduce the results of the paper. This route provides more flexibiliy may be easier to work with.
 
-### Analysis_Scripts
+### GCNCMC_Simulation_Scripts
 Set of scripts required to perform various pieces of analysis. Again, these can be manipulated to used as inspiration for your own analysis and beyond.
 
 ### Outputs
