@@ -1,4 +1,4 @@
-# Supplementary Material for "Accelerating Fragment Baed Drug Discovery using Grand Canonical Nonequilibrium Candidate Monte Carlo"
+# Supplementary Material for "Accelerating Fragment Based Drug Discovery using Grand Canonical Nonequilibrium Candidate Monte Carlo"
 
 This repository contains the data and scripts necessary to reproduce the results presented in our manuscript, _"Accelerating Fragment Baed Drug Discovery using Grand Canonical Nonequilibrium Candidate Monte Carlo"_, by W. G. Poole, M. L. Samways, D. Branduardi, R. D. Taylor, M. L. Verdonk, and J. W. Essex (2024).
 
