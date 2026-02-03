@@ -63,7 +63,7 @@ As an example using `Benzofuran` at a B value of `-9.58`:
 mkdir -p Titrations/Benzofuran/repeat_1/-9.58/
 cd Titrations/Benzofuran/repeat_1/-9.58/
 
-python ../../../../../GCNCMC_Simulation_Scripts/basic_NCMC_sim_B.py --pdb ../../../../Native_APO.pdb --lig ../../../../Ligand_pdbs_xmls/Benzofuran_H.pdb --lxml ../../../../Ligand_pdbs_xmls/Benzofuran_H.xml --B -9.58 --st 150 --sph_resns LEU ALA --sph_resis 85 100 --rad 8 --hmr --nmoves 1500 --mdpermove 500
+python ../../../../../GCNCMC_Simulation_Scripts/basic_NCMC_sim_B.py --pdb ../../../../Native_APO.pdb --lig ../../../../Ligand_pdbs_xmls/Benzofuran_H.pdb --xml ../../../../Ligand_pdbs_xmls/Benzofuran_H.xml --B -9.58 --st 150 --sph_resns LEU ALA --sph_resis 85 100 --rad 8 --hmr --nmoves 1500 --mdpermove 500
 ```
 
 To run a full titration calculation you will need to perform simulations at multiple B values.
