@@ -34,7 +34,8 @@ parser.add_argument(
     "--B50s", help="Input mu file to egt muex from", type=str, default=None
 )
 parser.add_argument(
-    "--smis", help="Input mu file to egt muex from", type=str, default=None
+    "--smis", help="path to a file mapping ligand identifiers to SMILES (columns: Ligand/Name and SMILES/Smiles)", 
+    type=str, default=None
 )
 
 args = parser.parse_args()
