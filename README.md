@@ -2,7 +2,7 @@
 
 This repository contains the data and scripts necessary to reproduce the results presented in our manuscript, _"Accelerating Fragment Baed Drug Discovery using Grand Canonical Nonequilibrium Candidate Monte Carlo"_, by W. G. Poole, M. L. Samways, D. Branduardi, R. D. Taylor, M. L. Verdonk, and J. W. Essex (2024).
 
-There are separate directories for the bulk concentrations simulations as well as the three test systems: beta-cyclodextrin, T4L99A, and MUP1 with the scripts and input files required to run the GCNCMC/MD simulations. The required analysis can also be found in each sub-directory. More information on how to perform the simulations and analysis can be found within each directory. The _grandlig_ module required to run these simulations can be downloaded [here](https://github.com/essex-lab/grand-lig'). Installation instructions are provided on the main repo.
+There are separate directories for the bulk concentrations simulations as well as the three test systems: beta-cyclodextrin, T4L99A, and MUP1 with the scripts and input files required to run the GCNCMC/MD simulations. The required analysis can also be found in each sub-directory. More information on how to perform the simulations and analysis can be found within each directory. The _grandlig_ module required to run these simulations can be downloaded [here](https://github.com/essex-lab/grand-lig). Installation instructions are provided on the main repo.
 
 If you encounter any problems with these scripts (no matter how small or large), please open an issue and it will get fixed ASAP.
 
